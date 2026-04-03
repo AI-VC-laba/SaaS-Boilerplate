@@ -43,7 +43,7 @@
   "PricingPlan": {
     "free_plan_name": "Старт",
     "premium_plan_name": "Профи",
-    "enterprise_plan_name": "Enterprise",
+    "enterprise_plan_name": "Энтерпрайз",
     "free_plan_description": "Базовый тариф доступ",
     "premium_plan_description": "Для Профессиональный",
     "enterprise_plan_description": "Для венчурных фондов",
