@@ -22,39 +22,52 @@ export const AppConfig = {
 export const AllLocales = AppConfig.locales.map(locale => locale.id);
 
 export const PLAN_ID = {
-  FREE: 'free',
-  PREMIUM: 'premium'
+  START: 'start',
+  PRO: 'pro',
+  ENTERPRISE: 'enterprise',
 } as const;
 
 export const PricingPlanList: Record<string, PricingPlan> = {
-  [PLAN_ID.FREE]: {
-
-    id: PLAN_ID.FREE,
+  [PLAN_ID.START]: {
+    id: PLAN_ID.START,
     price: 100000,
     interval: BILLING_INTERVAL.MONTH,
     testPriceId: '',
     devPriceId: '',
     prodPriceId: '',
     features: {
-      teamMember: 2,
-      website: 2,
-      storage: 2,
-      transfer: 2,
+      teamMember: 10,
+      website: 1,
+      storage: 5,
+      transfer: 0,
     },
   },
-  [PLAN_ID.PREMIUM]: {
-    id: PLAN_ID.PREMIUM,
+  [PLAN_ID.PRO]: {
+    id: PLAN_ID.PRO,
     price: 200000,
     interval: BILLING_INTERVAL.MONTH,
-    testPriceId: 'price_premium_test', // Use for testing
-    // FIXME: Update the price ID, you can create it after running `npm run stripe:setup-price`
+    testPriceId: 'price_pro_test',
     devPriceId: 'price_1PNksvKOp3DEwzQlGOXO7YBK',
     prodPriceId: '',
     features: {
-      teamMember: 5,
+      teamMember: 30,
       website: 5,
-      storage: 5,
-      transfer: 5,
+      storage: 20,
+      transfer: 1,
+    },
+  },
+  [PLAN_ID.ENTERPRISE]: {
+    id: PLAN_ID.ENTERPRISE,
+    price: 500000,
+    interval: BILLING_INTERVAL.MONTH,
+    testPriceId: 'price_enterprise_test',
+    devPriceId: '',
+    prodPriceId: '',
+    features: {
+      teamMember: -1, // -1 = unlimited
+      website: -1,
+      storage: -1,
+      transfer: 1,
     },
   },
 };
