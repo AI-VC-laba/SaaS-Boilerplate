@@ -12,6 +12,8 @@ export const PricingCard = (props: {
 }) => {
   const t = useTranslations('PricingPlan');
 
+  const formattedPrice = new Intl.NumberFormat('ru-RU').format(props.price);
+
   return (
     <div className="rounded-xl border border-border px-6 py-8 text-center">
       <div className="text-lg font-semibold">
@@ -20,7 +22,7 @@ export const PricingCard = (props: {
 
       <div className="mt-3 flex items-center justify-center">
         <div className="text-5xl font-bold">
-          {`₽${props.price}`}
+          {`₽${formattedPrice}`}
         </div>
 
         <div className="ml-1 text-muted-foreground">
