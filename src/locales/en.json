@@ -75,6 +75,10 @@
     "privacy_policy": "Privacy Policy",
     "footer_text": "© {year} {name}. Made with <author></author>."
   },
+    "About": {
+    "meta_title": "About — AI VENTURE LAB",
+    "meta_description": "ML platform for transparent initial screening of startups. Application ranking, scoring evaluation and explainable decision factors."
+  },
   "ProtectFallback": {
     "not_enough_permission": "You do not have the permissions to perform this action"
   },
