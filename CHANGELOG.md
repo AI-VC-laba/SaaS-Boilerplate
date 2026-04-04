@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.2...v1.0.3) (2026-04-04)
+
+
+### Bug Fixes
+
+* complete feature6_description text in ru.json ([1b55aa7](https://github.com/Palvik123/SaaS-Boilerplate/commit/1b55aa7c9ecd7d6158b9bb3a05e4b190c7b4a2f4))
+
 ## [1.0.2](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.1...v1.0.2) (2026-04-04)
 
 
