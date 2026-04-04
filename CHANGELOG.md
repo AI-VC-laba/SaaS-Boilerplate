@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.3...v1.0.4) (2026-04-04)
+
+
+### Bug Fixes
+
+* correct closing quote position in feature6_description ru.json ([2d96252](https://github.com/Palvik123/SaaS-Boilerplate/commit/2d9625220fabc411f6cf2befb9c9fec1c3a3437e))
+
 ## [1.0.3](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.2...v1.0.3) (2026-04-04)
 
 
