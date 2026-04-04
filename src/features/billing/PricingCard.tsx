@@ -26,7 +26,7 @@ export const PricingCard = (props: {
         </div>
 
         <div className="ml-1 text-muted-foreground">
-          {`/ ${t(`plan_interval_${props.interval}`)}`}
+                    {`/ ${props.interval === 'month' ? t('plan_interval_month') : t('plan_interval_year')}`}
         </div>
       </div>
 
