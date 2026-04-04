@@ -580,3 +580,8 @@ Looking for a custom boilerplate to kick off your project? I'd be glad to discus
 
 [![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)
 
+
+
+---
+
+*Last translations update: April 4, 2026*
