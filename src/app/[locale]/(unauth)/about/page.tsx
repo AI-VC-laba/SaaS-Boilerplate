@@ -1,5 +1,4 @@
-import { getTranslations } from 'next-intl/server';
-
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
 import { Section } from '@/features/landing/Section';
@@ -9,18 +8,18 @@ export async function generateMetadata(props: { params: { locale: string } }) {
     locale: props.params.locale,
     namespace: 'About',
   });
-
   return {
     title: t('meta_title'),
     description: t('meta_description'),
   };
 }
 
-const AboutPage = () => {
+const AboutPage = (props: { params: { locale: string } }) => {
+  unstable_setRequestLocale(props.params.locale);
+
   return (
     <>
       <Navbar />
-
       {/* Заголовок и описание */}
       <Section>
         <div className="text-center">
@@ -35,7 +34,6 @@ const AboutPage = () => {
           </p>
         </div>
       </Section>
-
       {/* Контактная информация */}
       <Section>
         <div className="mx-auto max-w-4xl">
@@ -70,7 +68,6 @@ const AboutPage = () => {
           </div>
         </div>
       </Section>
-
       {/* Публикации и доклады */}
       <Section>
         <div className="mx-auto max-w-4xl">
@@ -84,8 +81,8 @@ const AboutPage = () => {
                 СОВРЕМЕННЫХ УСЛОВИЯХ (РЭУ им. Г.В. Плеханова, 13.12.2024)
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Доклад: &quot;Алгоритмы машинного обучения и их применение в
-                инвестиционной сфере&quot;
+                Доклад: "Алгоритмы машинного обучения и их применение в
+                инвестиционной сфере"
               </p>
             </div>
             <div className="border-l-4 border-purple-500 pl-6">
@@ -93,9 +90,9 @@ const AboutPage = () => {
                 Конференция ИГСУ РАНХиГС ( 19-23 мая 2025)
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Доклад: &quot;Анализ факторов успешности стартапов с
+                Доклад: "Анализ факторов успешности стартапов с
                 использованием интеллектуальных алгоритмов: эмпирические
-                результаты для российского рынка&quot;
+                результаты для российского рынка"
               </p>
             </div>
             <div className="border-l-4 border-purple-500 pl-6">
@@ -103,15 +100,14 @@ const AboutPage = () => {
                 X Международная научно-практическая конференция (МГУ, 26.05.2025)
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Доклад: &quot;Методические подходы к управлению венчурными
+                Доклад: "Методические подходы к управлению венчурными
                 инвестициями на развивающихся рынках в условиях цифровой
-                трансформации&quot;
+                трансформации"
               </p>
             </div>
           </div>
         </div>
       </Section>
-
       {/* Дополнительная информация */}
       <Section>
         <div className="mx-auto max-w-3xl text-center">
@@ -129,7 +125,6 @@ const AboutPage = () => {
           </p>
         </div>
       </Section>
-
       <Footer />
     </>
   );
