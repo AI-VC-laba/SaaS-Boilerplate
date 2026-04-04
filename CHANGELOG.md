@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.0...v1.0.1) (2026-04-04)
+
+
+### Bug Fixes
+
+* add unstable_setRequestLocale to AboutPage for static rendering ([c89fd54](https://github.com/Palvik123/SaaS-Boilerplate/commit/c89fd5491ee2d02f56221dd9716c1ae94ffbb29f))
+
 # 1.0.0 (2026-04-04)
 
 
