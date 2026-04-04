@@ -75,6 +75,10 @@
     "privacy_policy": "Politique de confidentialité",
     "footer_text": "© {year} {name}. Fait avec <author></author>."
   },
+    "About": {
+    "meta_title": "À propos — AI VENTURE LAB",
+    "meta_description": "Plateforme ML pour une sélection initiale transparente des startups. Classement des candidatures, évaluation de notation et facteurs de décision explicables."
+  },
   "ProtectFallback": {
     "not_enough_permission": "Vous n'avez pas les permissions pour effectuer cette action"
   },
