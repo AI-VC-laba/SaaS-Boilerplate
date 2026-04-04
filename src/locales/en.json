@@ -32,8 +32,12 @@
     "feature4_title": "TypeScript",
     "feature5_title": "Shadcn UI",
     "feature6_title": "ESLint",
-    "feature_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
-  },
+    "feature1_description": "A JavaScript runtime built on Chrome's V8 engine, enabling server-side development with high performance and scalability.",
+    "feature2_description": "A popular JavaScript library for building user interfaces with reusable components and efficient rendering.",
+    "feature3_description": "A utility-first CSS framework that enables rapid UI development with pre-built classes and responsive design.",
+    "feature4_description": "A typed superset of JavaScript that adds static typing, improving code quality and developer productivity.",
+    "feature5_description": "A collection of beautifully designed, accessible UI components built with Radix UI and Tailwind CSS.",
+    "feature6_description": "A pluggable linting utility for JavaScript that helps maintain code quality and consistency across your project."  },
   "Pricing": {
     "section_subtitle": "Features",
     "section_title": "Unlock the Full Potential of the SaaS Template",
