@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.4...v1.1.0) (2026-07-10)
+
+
+### Features
+
+* add BentoGrid component — dark bento layout for СППР platform ([6fd3654](https://github.com/Palvik123/SaaS-Boilerplate/commit/6fd3654cd912da37a3d94b20fe05abca2615d266))
+* redesign Hero — dark bento style, СППР positioning, stats grid ([540e8d4](https://github.com/Palvik123/SaaS-Boilerplate/commit/540e8d499ce1f651eb3b698f65ed184a72938a59))
+* remove DemoBanner (SaaS Boilerplate promo banner) ([12a6e5e](https://github.com/Palvik123/SaaS-Boilerplate/commit/12a6e5e48790a52c7b1ee4e27aa60fd21a797dc5))
+
 ## [1.0.4](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.3...v1.0.4) (2026-04-04)
 
 
