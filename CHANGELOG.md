@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.1.0...v1.2.0) (2026-07-10)
+
+
+### Features
+
+* replace Sponsors with BentoGrid in page.tsx ([5317d05](https://github.com/Palvik123/SaaS-Boilerplate/commit/5317d058f9f3039e5d38fa7aa019e12e85162943))
+* update ru.json — add Hero stats, BentoGrid section, СППР positioning ([56f565f](https://github.com/Palvik123/SaaS-Boilerplate/commit/56f565fec40880bfd93098dff7ac4ac8ad5ae7c3))
+
 # [1.1.0](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.0.4...v1.1.0) (2026-07-10)
 
 
