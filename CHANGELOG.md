@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.2.2...v1.2.3) (2026-07-10)
+
+
+### Bug Fixes
+
+* remove duplicate label fields causing JSON parse error ([bda760e](https://github.com/Palvik123/SaaS-Boilerplate/commit/bda760ef842a61d70dc9ce5ec02de99da9979849))
+
 ## [1.2.2](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.2.1...v1.2.2) (2026-07-10)
 
 
