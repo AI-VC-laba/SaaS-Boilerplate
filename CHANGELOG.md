@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.2.1...v1.2.2) (2026-07-10)
+
+
+### Bug Fixes
+
+* correct JSON syntax error in Hero section key ([6a96ddd](https://github.com/Palvik123/SaaS-Boilerplate/commit/6a96ddda6774006861beb0aecbf9e2ad37d177df))
+* remove extra quote in Hero key and add missing comma ([3432ed9](https://github.com/Palvik123/SaaS-Boilerplate/commit/3432ed95f2a658faf5e1313d5f4e7589b8bc05dd))
+
 ## [1.2.1](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.2.0...v1.2.1) (2026-07-10)
 
 
