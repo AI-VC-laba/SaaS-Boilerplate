@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.2.0...v1.2.1) (2026-07-10)
+
+
+### Bug Fixes
+
+* correct Hero section in ru.json with all required keys ([9625340](https://github.com/Palvik123/SaaS-Boilerplate/commit/9625340ccd0341686a734f4fb7f374a690cde0f4))
+
 # [1.2.0](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.1.0...v1.2.0) (2026-07-10)
 
 
