@@ -8,8 +8,7 @@ import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
 import { Navbar } from '@/templates/Navbar';
 import { Pricing } from '@/templates/Pricing';
-import { Sponsors } from '@/templates/Sponsors';
-
+import { BentoGrid } from '@/templates/BentoGrid';
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
@@ -30,7 +29,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <DemoBanner />
       <Navbar />
       <Hero />
-      <Sponsors />
+      <BentoGrid />
       <Features />
       <Pricing />
       <FAQ />
