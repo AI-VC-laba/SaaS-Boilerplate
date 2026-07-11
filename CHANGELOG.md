@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.2.3...v1.2.4) (2026-07-11)
+
+
+### Bug Fixes
+
+* add BentoGrid section to en.json to fix build error ([37c8037](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/37c8037a9c63137c222fc92eb69ac0ab0c395402))
+
 ## [1.2.3](https://github.com/Palvik123/SaaS-Boilerplate/compare/v1.2.2...v1.2.3) (2026-07-10)
 
 
