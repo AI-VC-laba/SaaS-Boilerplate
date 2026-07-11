@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.2.4...v1.2.5) (2026-07-11)
+
+
+### Bug Fixes
+
+* add missing comma after Features section in ru.json ([6cc27d0](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/6cc27d015661ab6bd797259f16f5ae1cafce5cf2))
+
 ## [1.2.4](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.2.3...v1.2.4) (2026-07-11)
 
 
