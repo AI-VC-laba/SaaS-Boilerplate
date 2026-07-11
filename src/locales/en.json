@@ -22,6 +22,29 @@
   "Sponsors": {
     "title": "Sponsored by"
   },
+    "BentoGrid": {
+    "subtitle": "Decision Support Processes",
+    "title": "How DSSP Works",
+    "card1_tag": "Decision Cycle",
+    "card1_title": "Full Process from Intake to Decision",
+    "card1_description": "We automate key stages: structuring, scoring, analysis, validation.",
+    "step1": "Data Collection",
+    "step2": "ML Scoring",
+    "step3": "Factor Analysis",
+    "step4": "Validation",
+    "step5": "Decision",
+    "card2_title": "Instant Assessment",
+    "card2_description": "Project evaluation in minutes instead of weeks of analysis",
+    "card3_title": "Venture Funds",
+    "card3_description": "500+ applications per year — no time for manual screening",
+    "card4_title": "Development Institutions",
+    "card4_description": "Transparency and explainability required for reporting",
+    "card5_title": "Corporate Investors",
+    "card5_description": "Standardized scoring for portfolio analysis",
+    "card6_title": "Not a black box — full explainability of every decision",
+    "card6_description": "Transparent decision factors, understandable to investors and analysts.",
+    "card6_cta": "Request a Pilot"
+  },
   "Features": {
     "section_subtitle": "Features",
     "section_title": "Unlock the Full Potential of the SaaS Template",
