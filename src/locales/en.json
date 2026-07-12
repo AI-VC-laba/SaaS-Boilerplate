@@ -1,198 +1,216 @@
 {
   "Index": {
-    "meta_title": "SaaS Template - The perfect SaaS template to build and scale your business with ease.",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_title": "AI Venture Lab — Interpretable AI Scoring for Tech Startups",
+    "meta_description": "ML-powered platform for preliminary tech startup evaluation. Transparent scoring, application ranking, and explainable analytics for venture funds and accelerators."
   },
   "Navbar": {
     "sign_in": "Sign In",
-    "sign_up": "Sign Up",
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company"
+    "sign_up": "Request Demo",
+    "product": "Platform",
+    "docs": "Methodology",
+    "blog": "Research",
+    "community": "Partners",
+    "company": "About"
   },
   "Hero": {
-    "follow_twitter": "Follow @Ixartz on Twitter",
-    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
-    "description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "primary_button": "Get Next.js SaaS Starter Kit",
-    "secondary_button": "Star on GitHub"
+    "follow_twitter": "Follow the project",
+    "title": "AI-Powered <highlight>Decision Support Platform</highlight> for Tech Investments",
+    "description": "Automated deal flow processing: data collection, structuring, ML scoring, and actionable insights for venture funds, development institutions, and corporate VCs.",
+    "primary_button": "Request Demo Access",
+    "secondary_button": "View Methodology on GitHub",
+    "label": "DSSP · Research Platform",
+    "stat1_label": "deals analyzed",
+    "stat2_label": "min evaluation",
+    "stat3_label": "key factors",
+    "stat4_label": "launched"
   },
   "Sponsors": {
-    "title": "Sponsored by"
+    "title": "Project Partners"
   },
-    "BentoGrid": {
+  "BentoGrid": {
     "subtitle": "Decision Support Processes",
-    "title": "How DSSP Works",
-    "card1_tag": "Decision Cycle",
-    "card1_title": "Full Process from Intake to Decision",
-    "card1_description": "We automate key stages: structuring, scoring, analysis, validation.",
+    "title": "How the DSSP Works",
+    "card1_tag": "Decision Making Cycle",
+    "card1_title": "Complete Process from Intake to Decision",
+    "card1_description": "Automate key stages: structuring, scoring, analysis, validation.",
     "step1": "Data Collection",
     "step2": "ML Scoring",
     "step3": "Factor Analysis",
     "step4": "Validation",
     "step5": "Decision",
-    "card2_title": "Instant Assessment",
-    "card2_description": "Project evaluation in minutes instead of weeks of analysis",
+    "card2_title": "Instant Evaluation",
+    "card2_description": "Project assessment in minutes instead of weeks of analysis",
     "card3_title": "Venture Funds",
-    "card3_description": "500+ applications per year — no time for manual screening",
+    "card3_description": "500+ applications/year — no time for manual screening",
     "card4_title": "Development Institutions",
     "card4_description": "Transparency and explainability required for reporting",
     "card5_title": "Corporate Investors",
     "card5_description": "Standardized scoring for portfolio analysis",
-    "card6_title": "Not a black box — full explainability of every decision",
-    "card6_description": "Transparent decision factors, understandable to investors and analysts.",
-    "card6_cta": "Request a Pilot"
+    "card6_title": "Not a Black Box — Full Explainability of Every Decision",
+    "card6_description": "Transparent decision factors understandable to investors and analysts.",
+    "card6_cta": "Request Pilot"
   },
   "Features": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "feature1_title": "Node.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
-    "feature1_description": "A JavaScript runtime built on Chrome's V8 engine, enabling server-side development with high performance and scalability.",
-    "feature2_description": "A popular JavaScript library for building user interfaces with reusable components and efficient rendering.",
-    "feature3_description": "A utility-first CSS framework that enables rapid UI development with pre-built classes and responsive design.",
-    "feature4_description": "A typed superset of JavaScript that adds static typing, improving code quality and developer productivity.",
-    "feature5_description": "A collection of beautifully designed, accessible UI components built with Radix UI and Tailwind CSS.",
-    "feature6_description": "A pluggable linting utility for JavaScript that helps maintain code quality and consistency across your project."  },
+    "section_subtitle": "Platform Capabilities",
+    "section_title": "Transparent Analytics for Preliminary Startup Screening",
+    "section_description": "Interpretable machine scoring based on factor analysis. The system doesn't make decisions automatically — it supports analysts with explainable insights.",
+    "feature1_title": "Project Scoring",
+    "feature2_title": "Application Ranking",
+    "feature3_title": "Factor Analysis",
+    "feature4_title": "Interpretation",
+    "feature5_title": "Data Structuring",
+    "feature6_title": "Expert Validation",
+    "feature1_description": "Automatic startup evaluation based on ML model trained on 500+ venture deals. Get results in 1 minute instead of weeks of manual analysis.",
+    "feature2_description": "Intelligent ranking of incoming deal flow by investment attractiveness. Focus only on projects with real potential.",
+    "feature3_description": "Detailed breakdown of key factors affecting evaluation: team, market, technology, traction. Understand what makes a project strong.",
+    "feature4_description": "Transparent and explainable decisions — no black boxes. Every system output is accompanied by justification understandable to investors.",
+    "feature5_description": "Standardized data structure across all projects for fair comparison. Unified format — reliable foundation for portfolio analysis.",
+    "feature6_description": "Final validation of results by experienced analysts. Combination of AI speed and professional VC market expertise."
+  },
   "Pricing": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "button_text": "Get Started"
+    "section_subtitle": "Access Model",
+    "section_title": "Flexible Platform Usage Options",
+    "section_description": "Platform MVP is undergoing pilot testing. Limited access available for venture funds, accelerators, and development institutions.",
+    "button_text": "Request Access"
   },
   "PricingPlan": {
-    "free_plan_name": "Free",
-    "premium_plan_name": "Premium",
+    "free_plan_name": "Starter",
+    "premium_plan_name": "Professional",
     "enterprise_plan_name": "Enterprise",
-    "free_plan_description": "For individuals",
-    "premium_plan_description": "For small teams",
-    "enterprise_plan_description": "For industry leaders",
-    "feature_team_member": "{number} Team Members",
-    "feature_website": "{number} Websites",
-    "feature_storage": "{number} GB Storage",
-    "feature_transfer": "{number} TB Transfer",
-    "feature_email_support": "Email Support",
+    "free_plan_description": "Basic access",
+    "premium_plan_description": "Professional access",
+    "enterprise_plan_description": "Institutional investors, organizations",
+    "feature_team_member": "{number} users",
+    "feature_website": "{number} projects per month",
+    "feature_storage": "{number} GB data storage",
+    "feature_transfer": "API access",
+    "feature_email_support": "Expert support",
     "plan_interval_month": "month",
     "plan_interval_year": "year",
-    "next_renew_date": "Your subscription renews on {date}"
+    "next_renew_date": "Access active until {date}"
   },
   "FAQ": {
-    "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
+    "question1": "How does ML scoring of tech projects work?",
+    "answer1": "The platform analyzes key project features — team, technology, market, traction — and calculates success probability based on 500+ historical deals. The model is trained on venture fund data and provides interpretable explanation for each evaluation.",
+    "question2": "Who is the platform designed for?",
+    "answer2": "The platform is developed for venture funds, accelerators, and development institutions that regularly evaluate tech projects and want to automate preliminary application screening.",
+    "question3": "What data is needed to evaluate a project?",
+    "answer3": "For preliminary scoring, basic information is sufficient: product description, market, team, development stage, and financial metrics. The more data provided, the more accurate the evaluation.",
+    "question4": "How accurate are the scoring results?",
+    "answer4": "The model is trained on 500+ real venture deals and shows 78-82% accuracy in preliminary screening. The system provides confidence level for each evaluation and explains key factors.",
+    "question5": "Is this platform based on academic research?",
+    "answer5": "Yes. The platform is being developed as part of doctoral dissertation research for obtaining a scientific degree. It features original methodology for interpretable ML scoring with validated accuracy metrics. The research combines academic rigor with practical application in venture capital.",
+    "question6": "How to get access to the platform?",
+    "answer6": "The platform is in pilot testing stage with limited number of participants. Click 'Request Access' or 'Request Demo' button — we will contact you within 1-2 business days to discuss pilot participation.",
+    "question7": "Is the platform a replacement for expert evaluation?",
+    "answer7": "No. The platform is a decision support tool, not an expert replacement. The system helps analysts quickly structure information and identify priority projects, but final decision always remains with humans."
   },
   "CTA": {
-    "title": "You are ready?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "button_text": "Get Next.js SaaS Starter Kit"
+    "title": "Test the Platform in Pilot Mode",
+    "description": "Get demo access to the ML platform for preliminary tech startup scoring. Transparent analytics, trained on real venture deals. Limited slots for funds and accelerators. Part of ongoing doctoral research.",
+    "button_text": "Request Demo Access"
   },
   "Footer": {
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company",
-    "terms_of_service": "Terms Of Service",
+    "product": "Platform",
+    "docs": "Methodology",
+    "blog": "Research",
+    "community": "Partners",
+    "company": "About",
+    "terms_of_service": "Terms of Service",
     "privacy_policy": "Privacy Policy",
-    "footer_text": "© {year} {name}. Made with <author></author>."
+    "footer_text": "© {year} AI Venture Lab LLC. Doctoral Research Project."
   },
-    "About": {
-    "meta_title": "About — AI VENTURE LAB",
-    "meta_description": "ML platform for transparent initial screening of startups. Application ranking, scoring evaluation and explainable decision factors."
+  "About": {
+    "meta_title": "About — AI Venture Lab",
+    "meta_description": "ML platform for transparent preliminary startup screening. Application ranking, scoring calculation, and explainable decision factors. Doctoral dissertation research."
   },
   "ProtectFallback": {
-    "not_enough_permission": "You do not have the permissions to perform this action"
+    "not_enough_permission": "You do not have sufficient permissions to perform this action"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Platform Sign In",
+    "meta_description": "Sign in to the tech project scoring analytics platform."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Request Demo Access",
+    "meta_description": "Request demo access to the ML platform for preliminary project scoring."
   },
   "DashboardLayout": {
     "home": "Home",
-    "todos": "Todos",
-    "members": "Members",
-    "billing": "Billing",
+    "todos": "Projects",
+    "members": "Team",
+    "billing": "Subscription",
     "settings": "Settings"
   },
   "Dashboard": {
-    "meta_title": "SaaS Template Dashboard",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_title": "Analytics Dashboard — AI Venture Lab",
+    "meta_description": "Manage tech project scoring from unified analytics dashboard."
   },
   "DashboardIndex": {
-    "title_bar": "Dashboard",
-    "title_bar_description": "Welcome to your dashboard",
-    "message_state_title": "Let's get started",
-    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>",
-    "message_state_button": "Star on GitHub",
-    "message_state_alternative": "Need advanced features? Next.js 16 & React 19, Multi-tenancy & Teams, Roles & Permissions, Shadcn UI,\nEnd-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try <url></url>.",
-    "max_message": "Or, need a Self-hosted auth stack (Better Auth)? Try <url></url>."
+    "title_bar": "Analytics Dashboard",
+    "title_bar_description": "Welcome to the ML Project Scoring Platform",
+    "message_state_title": "Get Started with the Platform",
+    "message_state_description": "Upload project data for preliminary evaluation or explore scoring methodology in documentation.",
+    "message_state_button": "Methodology on GitHub",
+    "message_state_alternative": "The platform is in MVP stage undergoing pilot testing. Functionality expands based on partner feedback.",
+    "max_message": "This project is implemented as doctoral dissertation research and supported by AI Venture Lab LLC."
   },
   "UserProfile": {
     "title_bar": "User Profile",
-    "title_bar_description": "View and manage your user profile"
+    "title_bar_description": "Manage profile and access settings"
   },
   "OrganizationProfile": {
-    "title_bar": "Organization Management",
-    "title_bar_description": "Manage your organization"
+    "title_bar": "Organization Settings",
+    "title_bar_description": "Manage fund/accelerator"
   },
   "Billing": {
-    "title_bar": "Billing",
-    "title_bar_description": "Manage your billing and subscription",
-    "current_section_title": "Current Plan",
-    "current_section_description": "Adjust your payment plan to best suit your requirements",
-    "manage_subscription_button": "Manage Subscription"
+    "title_bar": "Subscription",
+    "title_bar_description": "Manage platform access",
+    "current_section_title": "Current Access Plan",
+    "current_section_description": "Choose plan based on evaluated project volume",
+    "manage_subscription_button": "Change Plan"
   },
   "BillingOptions": {
     "current_plan": "Current Plan",
-    "upgrade_plan": "Get Started"
+    "upgrade_plan": "Request Access"
   },
   "CheckoutConfirmation": {
-    "title_bar": "Payment Confirmation",
-    "message_state_title": "Payment successful",
-    "message_state_description": "Your payment has been successfully processed. Thank you for your purchase!",
-    "message_state_button": "Go back to Billing"
+    "title_bar": "Access Confirmation",
+    "message_state_title": "Access Activated",
+    "message_state_description": "Your platform access request has been processed. You will receive instructions via email.",
+    "message_state_button": "Return to Subscription"
   },
   "DataTable": {
-    "no_results": "No results."
+    "no_results": "No projects found."
   },
   "Todos": {
-    "title_bar": "Todo List",
-    "title_bar_description": "View and manage your todo list",
-    "add_todo_button": "New todo"
+    "title_bar": "Projects Under Evaluation",
+    "title_bar_description": "List of tech projects for scoring",
+    "add_todo_button": "Add Project"
   },
   "TodoTableColumns": {
     "open_menu": "Open menu",
     "edit": "Edit",
     "delete": "Delete",
-    "title_header": "Title",
-    "message_header": "Message",
-    "created_at_header": "Created at"
+    "title_header": "Project Name",
+    "message_header": "Description",
+    "created_at_header": "Submission Date"
   },
   "AddTodo": {
-    "title_bar": "Add Todo",
-    "add_todo_section_title": "Create a new todo",
-    "add_todo_section_description": "Fill in the form below to create a new todo"
+    "title_bar": "Add Project",
+    "add_todo_section_title": "Create Project Card",
+    "add_todo_section_description": "Enter basic information about the tech project for preliminary scoring"
   },
   "EditTodo": {
-    "title_bar": "Edit todo",
-    "edit_todo_section_title": "Modify todo",
-    "edit_todo_section_description": "Fill in the form below to edit the todo"
+    "title_bar": "Edit Project",
+    "edit_todo_section_title": "Update Project Data",
+    "edit_todo_section_description": "Update project information to recalculate scoring evaluation"
   },
   "TodoForm": {
-    "title_label": "Title",
-    "title_description": "Enter a descriptive title for your todo.",
-    "message_title": "Message",
-    "message_description": "Enter a detailed message for your todo.",
-    "submit_button": "Submit"
+    "title_label": "Project Name",
+    "title_description": "Enter the full name of the tech project.",
+    "message_title": "Project Description",
+    "message_description": "Brief description of the technology, target market, and project team.",
+    "submit_button": "Save Project"
   }
 }
