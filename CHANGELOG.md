@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.3.0...v1.3.1) (2026-07-12)
+
+
+### Bug Fixes
+
+* remove duplicate question7 and fix JSON syntax error ([f447ed4](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/f447ed437c683ab071329ee7070528def1da78a1))
+
 # [1.3.0](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.2.5...v1.3.0) (2026-07-12)
 
 
