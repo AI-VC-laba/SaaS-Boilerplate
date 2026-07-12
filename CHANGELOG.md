@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.2.5...v1.3.0) (2026-07-12)
+
+
+### Features
+
+* add doctoral research context to Russian landing ([42f0bfb](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/42f0bfbed60d40fb8b1c6ae29d366dba5789ff1d))
+* update landing content for professional VC audience ([fa2e6ae](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/fa2e6aed059996a9a79b48c6ce6ddbd94684235b))
+
 ## [1.2.5](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.2.4...v1.2.5) (2026-07-11)
 
 
