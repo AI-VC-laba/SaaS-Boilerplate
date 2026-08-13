@@ -1,1 +1,235 @@
-base64:ewogICJJbmRleCI6IHsKICAgICJtZXRhX3RpdGxlIjogIkVkZ2UgQUkg4oCUINCY0L3RgtC10YDQv9GA0LXRgtC40YDRg9C10LzRi9C5IEFJLdGB0LrQvtGA0LjQvdCzINGC0LXRhdC90L7Qu9C+0LPQuNGH0LXRgdC60LjRhSDQv9GA0L7QtdC60YLQvtCyIiwKICAgICJtZXRhX2Rlc2NyaXB0aW9uIjogIk1MLdC/0LvQsNGC0YTQvtGA0LzQsCDQtNC70Y8g0L/QtdGA0LLQuNGH0L3QvtC5INC+0YbQtdC90LrQuCDRgtC10YXQvdC+0LvQvtCz0LjRh9C10YHQutC40YUg0L/RgNC+0LXQutGC0L7Qsi4g0J/RgNC+0LfRgNCw0YfQvdGL0Lkg0YHQutC+0YDQuNC90LMsINGA0LDQvdC20LjRgNC+0LLQsNC90LjQtSDQt9Cw0Y/QstC+0Log0Lgg0L7QsdGK0Y/RgdC90LjQvNCw0Y8g0LDQvdCw0LvQuNGC0LjQutCwINC00LvRjyDRhNC+0L3QtNC+0LIg0Lgg0LDQutGB0LXQu9C10YDQsNGC0L7RgNC+0LIuINCn0LDRgdGC0Ywg0LTQuNGB0YHQtdGA0YLQsNGG0LjQvtC90L3QvtCz0L4g0LjRgdGB0LvQtdC00L7QstCw0L3QuNGPLiIKICB9LAogICJOYXZiYXIiOiB7CiAgICAic2lnbl9pbiI6ICLQktC+0LnRgtC4IiwKICAgICJzaWduX3VwIjogItCU0LXQvNC+LdC00L7RgdGC0YPQvyIsCiAgICAicHJvZHVjdCI6ICLQn9C70LDRgtGE0L7RgNC80LAiLAogICAgImRvY3MiOiAi0JzQtdGC0L7QtNC+0LvQvtCz0LjRjyIsCiAgICAiYmxvZyI6ICLQmNGB0YHQu9C10LTQvtCy0LDQvdC40Y8iLAogICAgImNvbW11bml0eSI6ICLQn9Cw0YDRgtC90ZHRgNGLIiwKICAgICJjb21wYW55IjogItCeINC/0YDQvtC10LrRgtC1IgogIH0sCiAgIkhlcm8iOiB7CiAgICAiZm9sbG93X3R3aXR0ZXIiOiAi0KHQu9C10LTQuNGC0LUg0LfQsCDQv9GA0L7QtdC60YLQvtC8IiwKICAgICJ0aXRsZSI6ICLQn9C70LDRgtGE0L7RgNC80LAgPGhpZ2hsaWdodD7Qv9C+0LTQtNC10YDQttC60Lgg0L/RgNC40L3Rj9GC0LjRjyDRgNC10YjQtdC90LjQuTwvaGlnaGxpZ2h0PiDQvdCwINC+0YHQvdC+0LLQtSDQmNCYIiwKICAgICJkZXNjcmlwdGlvbiI6ICLQkNCy0YLQvtC80LDRgtC40LfQuNGA0YPQtdC8INCy0LXRgdGMINGG0LjQutC7OiDRgdCx0L7RgCwg0YHRgtGA0YPQutGC0YPRgNC40YDQvtCy0LDQvdC40LUsIE1MLdGB0LrQvtGA0LjQvdCzLCDQvtCx0YrRj9GB0L3QuNC80YvQuSDQsNC90LDQu9C40Lcg0Lgg0YDQtdC60L7QvNC10L3QtNCw0YbQuNC4INC00LvRjyDQstC10L3Rh9GD0YDQvdGL0YUg0YTQvtC90LTQvtCyINC4INCw0LrRgdC10LvQtdGA0LDRgtC+0YDQvtCyLiIsCiAgICAicHJpbWFyeV9idXR0b24iOiAi0JfQsNC/0YDQvtGB0LjRgtGMINC00LXQvNC+IiwKICAgICJzZWNvbmRhcnlfYnV0dG9uIjogItCc0LXRgtC+0LTQvtC70L7Qs9C40Y8g0L3QsCBHaXRIdWIiLAogICAgImxhYmVsIjogItCh0J/QndCgIMK3INCm0LjRhNGA0L7QstCw0Y8g0L/Qu9Cw0YLRhNC+0YDQvNCwIiwKICAgICJzdGF0MV92YWx1ZSI6ICI1MDArIiwKICAgICJzdGF0MV9sYWJlbCI6ICLRgdC00LXQu9C+0Log0LIg0LHQsNC30LUiLAogICAgInN0YXQyX3ZhbHVlIjogIjwgMSDQvNC40L0iLAogICAgInN0YXQyX2xhYmVsIjogItC+0YbQtdC90LrQsCDQv9GA0L7QtdC60YLQsCIsCiAgICAic3RhdDNfdmFsdWUiOiAiNyIsCiAgICAic3RhdDNfbGFiZWwiOiAi0LrQu9GO0YfQtdCy0YvRhSDRhNCw0LrRgtC+0YDQvtCyIiwKICAgICJzdGF0NF92YWx1ZSI6ICLQn9C40LvQvtGCIiwKICAgICJzdGF0NF9sYWJlbCI6ICLQt9Cw0L/Rg9GJ0LXQvSIKICB9LAogICJTcG9uc29ycyI6IHsKICAgICJ0aXRsZSI6ICLQn9Cw0YDRgtC90ZHRgNGLINC/0YDQvtC10LrRgtCwIgogIH0sCiAgIkJlbnRvR3JpZCI6IHsKICAgICJzdWJ0aXRsZSI6ICLQmtC70Y7Rh9C10LLRi9C1INCy0L7Qt9C80L7QttC90L7RgdGC0LgiLAogICAgInRpdGxlIjogItCa0LDQuiDRgNCw0LHQvtGC0LDQtdGCIEVkZ2UgQUkiLAogICAgInByb2Nlc3NfdGFnIjogItCm0LjQutC7INC/0YDQuNC90Y/RgtC40Y8g0YDQtdGI0LXQvdC40LkiLAogICAgInByb2Nlc3NfdGl0bGUiOiAi0J/QvtC70L3Ri9C5INC/0YDQvtGG0LXRgdGBIOKAlCDQvtGCINC30LDRj9Cy0LrQuCDQtNC+INGA0LXRiNC10L3QuNGPIiwKICAgICJwcm9jZXNzX2Rlc2NyaXB0aW9uIjogItCQ0LLRgtC+0LzQsNGC0LjQt9C40YDRg9C10Lwg0LrQu9GO0YfQtdCy0YvQtSDRjdGC0LDQv9GLINC/0LXRgNCy0LjRh9C90L7Qs9C+INC+0YLQsdC+0YDQsDog0L7RgiDRgdCx0L7RgNCwINC00LDQvdC90YvRhSDQtNC+INC+0LHRitGP0YHQvdC40LzQvtC5INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuC4iLAogICAgInN0ZXAxIjogItCh0LHQvtGAINC00LDQvdC90YvRhSIsCiAgICAic3RlcDIiOiAi0KHRgtGA0YPQutGC0YPRgNC40YDQvtCy0LDQvdC40LUiLAogICAgInN0ZXAzIjogIk1MLdGB0LrQvtGA0LjQvdCzIiwKICAgICJzdGVwNCI6ICLQpNCw0LrRgtC+0YDQvdGL0Lkg0LDQvdCw0LvQuNC3IiwKICAgICJzdGVwNSI6ICLQktCw0LvQuNC00LDRhtC40Y8iLAogICAgInN0ZXA2IjogItCg0LXRiNC10L3QuNC1IiwKICAgICJzcGVlZF92YWx1ZSI6ICI8IDEg0LzQuNC9IiwKICAgICJzcGVlZF90aXRsZSI6ICLQnNCz0L3QvtCy0LXQvdC90LDRjyDQvtGG0LXQvdC60LAiLAogICAgInNwZWVkX2Rlc2NyaXB0aW9uIjogItCh0LrQvtGA0LjQvdCzINC/0YDQvtC10LrRgtCwINC30LAg0LzQuNC90YPRgtGLINCy0LzQtdGB0YLQviDQvdC10LTQtdC70Ywg0YDRg9GH0L3QvtCz0L4g0LDQvdCw0LvQuNC30LAuIiwKICAgICJmYWN0b3JzX3RpdGxlIjogItCk0LDQutGC0L7RgNC90YvQuSDQsNC90LDQu9C40LciLAogICAgImZhY3RvcnNfZGVzY3JpcHRpb24iOiAi0JLQutC70LDQtCDQutC70Y7Rh9C10LLRi9GFINGE0LDQutGC0L7RgNC+0LIg0LIg0LjRgtC+0LPQvtCy0YPRjiDQvtGG0LXQvdC60YMg0L/RgNC+0LXQutGC0LAuIiwKICAgICJmYWN0b3JfdGVhbSI6ICLQmtC+0LzQsNC90LTQsCIsCiAgICAiZmFjdG9yX21hcmtldCI6ICLQoNGL0L3QvtC6IiwKICAgICJmYWN0b3JfdGVjaCI6ICLQotC10YXQvdC+0LvQvtCz0LjRjyIsCiAgICAiZmFjdG9yX3RyYWN0aW9uIjogItCi0YDQtdC60YjQvSIsCiAgICAicmFua2luZ190aXRsZSI6ICLQoNCw0L3QttC40YDQvtCy0LDQvdC40LUg0LfQsNGP0LLQvtC6IiwKICAgICJyYW5raW5nX2Rlc2NyaXB0aW9uIjogItCS0YXQvtC00Y/RidC40Lkg0L/QvtGC0L7QuiDQv9GA0L7QtdC60YLQvtCyLCDQvtGC0YHQvtGA0YLQuNGA0L7QstCw0L3QvdGL0Lkg0L/QviDQuNC90LLQtdGB0YLQuNGG0LjQvtC90L3QvtC5INC/0YDQuNCy0LvQtdC60LDRgtC10LvRjNC90L7RgdGC0LguIiwKICAgICJhY2N1cmFjeV92YWx1ZSI6ICI3OOKAkzgyJSIsCiAgICAiYWNjdXJhY3lfdGl0bGUiOiAi0KLQvtGH0L3QvtGB0YLRjCDQvtGC0LHQvtGA0LAiLAogICAgImFjY3VyYWN5X2Rlc2NyaXB0aW9uIjogItCc0L7QtNC10LvRjCDQvtCx0YPRh9C10L3QsCDQvdCwIDUwMCsg0YDQtdCw0LvRjNC90YvRhSDQstC10L3Rh9GD0YDQvdGL0YUg0YHQtNC10LvQutCw0YUuIiwKICAgICJhdWRpZW5jZTFfdGl0bGUiOiAi0JLQtdC90YfRg9GA0L3Ri9C1INGE0L7QvdC00YsiLAogICAgImF1ZGllbmNlMV9kZXNjcmlwdGlvbiI6ICI1MDArINC30LDRj9Cy0L7QuiDQsiDQs9C+0LQg4oCUINC90LXRgiDQstGA0LXQvNC10L3QuCDQvdCwINGA0YPRh9C90L7QuSDQvtGC0LHQvtGALiIsCiAgICAiYXVkaWVuY2UyX3RpdGxlIjogItCY0L3RgdGC0LjRgtGD0YLRiyDRgNCw0LfQstC40YLQuNGPIiwKICAgICJhdWRpZW5jZTJfZGVzY3JpcHRpb24iOiAi0J/RgNC+0LfRgNCw0YfQvdC+0YHRgtGMINC4INC+0LHRitGP0YHQvdC40LzQvtGB0YLRjCDQtNC70Y8g0L7RgtGH0ZHRgtC90L7RgdGC0LguIiwKICAgICJhdWRpZW5jZTNfdGl0bGUiOiAi0JrQvtGA0L/QvtGA0LDRgtC40LLQvdGL0LUg0LjQvdCy0LXRgdGC0L7RgNGLIiwKICAgICJhdWRpZW5jZTNfZGVzY3JpcHRpb24iOiAi0KHRgtCw0L3QtNCw0YDRgtC40LfQuNGA0L7QstCw0L3QvdGL0Lkg0YHQutC+0YDQuNC90LMg0LTQu9GPINC/0L7RgNGC0YTQtdC70YzQvdC+0LPQviDQsNC90LDQu9C40LfQsC4iLAogICAgInhhaV90aXRsZSI6ICLQndC1IMKr0YfRkdGA0L3Ri9C5INGP0YnQuNC6wrsg4oCUINC+0LHRitGP0YHQvdC40LzQvtGB0YLRjCDQutCw0LbQtNC+0LPQviDRgNC10YjQtdC90LjRjyIsCiAgICAieGFpX2Rlc2NyaXB0aW9uIjogItCa0LDQttC00LDRjyDQvtGG0LXQvdC60LAg0YHQvtC/0YDQvtCy0L7QttC00LDQtdGC0YHRjyDQuNC90YLQtdGA0L/RgNC10YLQsNGG0LjQtdC5INC60LvRjtGH0LXQstGL0YUg0YTQsNC60YLQvtGA0L7Qsiwg0L/QvtC90Y/RgtC90L7QuSDQuNC90LLQtdGB0YLQvtGA0YMg0Lgg0LDQvdCw0LvQuNGC0LjQutGDLiIsCiAgICAieGFpX2N0YSI6ICLQl9Cw0L/RgNC+0YHQuNGC0Ywg0L/QuNC70L7RgiIKICB9LAogICJGZWF0dXJlcyI6IHsKICAgICJzZWN0aW9uX3N1YnRpdGxlIjogItCS0L7Qt9C80L7QttC90L7RgdGC0Lgg0L/Qu9Cw0YLRhNC+0YDQvNGLIiwKICAgICJzZWN0aW9uX3RpdGxlIjogItCf0YDQvtC30YDQsNGH0L3QsNGPINCw0L3QsNC70LjRgtC40LrQsCDQtNC70Y8g0L/QtdGA0LLQuNGH0L3QvtCz0L4g0L7RgtCx0L7RgNCwINC/0YDQvtC10LrRgtC+0LIiLAogICAgInNlY3Rpb25fZGVzY3JpcHRpb24iOiAi0JjQvdGC0LXRgNC/0YDQtdGC0LjRgNGD0LXQvNGL0Lkg0LzQsNGI0LjQvdC90YvQuSDRgdC60L7RgNC40L3QsyDQvdCwINC+0YHQvdC+0LLQtSDRhNCw0LrRgtC+0YDQvdC+0LPQviDQsNC90LDQu9C40LfQsC4g0KHQuNGB0YLQtdC80LAg0L3QtSDQv9GA0LjQvdC40LzQsNC10YIg0YDQtdGI0LXQvdC40Y8g0LDQstGC0L7QvNCw0YLQuNGH0LXRgdC60Lgg4oCUINC+0L3QsCDQv9C+0LTQtNC10YDQttC40LLQsNC10YIg0LDQvdCw0LvQuNGC0LjQutC+0LIg0L7QsdGK0Y/RgdC90LjQvNGL0LzQuCDQuNC90YHQsNC50YLQsNC80LguIiwKICAgICJmZWF0dXJlMV90aXRsZSI6ICLQodC60L7RgNC40L3QsyDQv9GA0L7QtdC60YLQvtCyIiwKICAgICJmZWF0dXJlMl90aXRsZSI6ICLQoNCw0L3QttC40YDQvtCy0LDQvdC40LUg0LfQsNGP0LLQvtC6IiwKICAgICJmZWF0dXJlM190aXRsZSI6ICLQpNCw0LrRgtC+0YDQvdGL0Lkg0LDQvdCw0LvQuNC3IiwKICAgICJmZWF0dXJlNF90aXRsZSI6ICLQmNC90YLQtdGA0L/RgNC10YLQsNGG0LjRjyIsCiAgICAiZmVhdHVyZTVfdGl0bGUiOiAi0KHRgtGA0YPQutGC0YPRgNC40YDQvtCy0LDQvdC40LUg0LTQsNC90L3Ri9GFIiwKICAgICJmZWF0dXJlNl90aXRsZSI6ICLQrdC60YHQv9C10YDRgtC90LDRjyDQstCw0LvQuNC00LDRhtC40Y8iLAogICAgImZlYXR1cmUxX2Rlc2NyaXB0aW9uIjogItCQ0LLRgtC+0LzQsNGC0LjRh9C10YHQutCw0Y8g0L7RhtC10L3QutCwINGB0YLQsNGA0YLQsNC/0L7QsiDQvdCwINC+0YHQvdC+0LLQtSBNTC3QvNC+0LTQtdC70LgsINC+0LHRg9GH0LXQvdC90L7QuSDQvdCwIDUwMCsg0LLQtdC90YfRg9GA0L3Ri9GFINGB0LTQtdC70LrQsNGFLiDQoNC10LfRg9C70YzRgtCw0YIg0LfQsCAxINC80LjQvdGD0YLRgyDQstC80LXRgdGC0L4g0L3QtdC00LXQu9GMINGA0YPRh9C90L7Qs9C+INCw0L3QsNC70LjQt9CwLiIsCiAgICAiZmVhdHVyZTJfZGVzY3JpcHRpb24iOiAi0JjQvdGC0LXQu9C70LXQutGC0YPQsNC70YzQvdC+0LUg0YDQsNC90LbQuNGA0L7QstCw0L3QuNC1INCy0YXQvtC00Y/RidC10LPQviDQv9C+0YLQvtC60LAg0LfQsNGP0LLQvtC6INC/0L4g0LjQvdCy0LXRgdGC0LjRhtC40L7QvdC90L7QuSDQv9GA0LjQstC70LXQutCw0YLQtdC70YzQvdC+0YHRgtC4LiDQpNC+0LrRg9GBINGC0L7Qu9GM0LrQviDQvdCwINC/0YDQvtC10LrRgtCw0YUg0YEg0YDQtdCw0LvRjNC90YvQvCDQv9C+0YLQtdC90YbQuNCw0LvQvtC8LiIsCiAgICAiZmVhdHVyZTNfZGVzY3JpcHRpb24iOiAi0JTQtdGC0LDQu9GM0L3QsNGPINGA0LDQt9Cx0LjQstC60LAg0LrQu9GO0YfQtdCy0YvRhSDRhNCw0LrRgtC+0YDQvtCyINC+0YbQtdC90LrQuDog0LrQvtC80LDQvdC00LAsINGA0YvQvdC+0LosINGC0LXRhdC90L7Qu9C+0LPQuNGPLCDRgtGA0LXQutGI0L0uINCf0L7QvdC40LzQsNC90LjQtSwg0YfRgtC+INC00LXQu9Cw0LXRgiDQv9GA0L7QtdC60YIg0YHQuNC70YzQvdGL0LwuIiwKICAgICJmZWF0dXJlNF9kZXNjcmlwdGlvbiI6ICLQn9GA0L7Qt9GA0LDRh9C90YvQtSDQuCDQvtCx0YrRj9GB0L3QuNC80YvQtSDRgNC10YjQtdC90LjRjyDigJQg0L3QuNC60LDQutC40YUg0YfRkdGA0L3Ri9GFINGP0YnQuNC60L7Qsi4g0JrQsNC20LTRi9C5INCy0YvQstC+0LQg0YHQuNGB0YLQtdC80Ysg0YHQvtC/0YDQvtCy0L7QttC00LDQtdGC0YHRjyDQvtCx0L7RgdC90L7QstCw0L3QuNC10LwsINC/0L7QvdGP0YLQvdGL0Lwg0LjQvdCy0LXRgdGC0L7RgNGDLiIsCiAgICAiZmVhdHVyZTVfZGVzY3JpcHRpb24iOiAi0KHRgtCw0L3QtNCw0YDRgtC40LfQuNGA0L7QstCw0L3QvdCw0Y8g0YHRgtGA0YPQutGC0YPRgNCwINC00LDQvdC90YvRhSDQv9C+INCy0YHQtdC8INC/0YDQvtC10LrRgtCw0Lwg0LTQu9GPINC60L7RgNGA0LXQutGC0L3QvtCz0L4g0YHRgNCw0LLQvdC10L3QuNGPLiDQldC00LjQvdGL0Lkg0YTQvtGA0LzQsNGCIOKAlCDQvdCw0LTRkdC20L3QsNGPINC+0YHQvdC+0LLQsCDQtNC70Y8g0L/QvtGA0YLRhNC10LvRjNC90L7Qs9C+INCw0L3QsNC70LjQt9CwLiIsCiAgICAiZmVhdHVyZTZfZGVzY3JpcHRpb24iOiAi0KTQuNC90LDQu9GM0L3QsNGPINCy0LDQu9C40LTQsNGG0LjRjyDRgNC10LfRg9C70YzRgtCw0YLQvtCyINC+0L/Ri9GC0L3Ri9C80Lgg0LDQvdCw0LvQuNGC0LjQutCw0LzQuC4g0KHQvtGH0LXRgtCw0L3QuNC1INGB0LrQvtGA0L7RgdGC0Lgg0JjQmCDQuCDRjdC60YHQv9C10YDRgtC40LfRiyDQv9GA0L7RhNC10YHRgdC40L7QvdCw0LvQvtCyINCy0LXQvdGH0YPRgNC90L7Qs9C+INGA0YvQvdC60LAuIgogIH0sCiAgIlByaWNpbmciOiB7CiAgICAic2VjdGlvbl9zdWJ0aXRsZSI6ICLQnNC+0LTQtdC70Ywg0LTQvtGB0YLRg9C/0LAiLAogICAgInNlY3Rpb25fdGl0bGUiOiAi0JPQuNCx0LrQuNC1INCy0LDRgNC40LDQvdGC0Ysg0LjRgdC/0L7Qu9GM0LfQvtCy0LDQvdC40Y8g0L/Qu9Cw0YLRhNC+0YDQvNGLIiwKICAgICJzZWN0aW9uX2Rlc2NyaXB0aW9uIjogIk1WUCDQv9C70LDRgtGE0L7RgNC80Ysg0L/RgNC+0YXQvtC00LjRgiDQv9C40LvQvtGC0L3QvtC1INGC0LXRgdGC0LjRgNC+0LLQsNC90LjQtS4g0J/RgNC10LTQu9Cw0LPQsNC10Lwg0L7Qs9GA0LDQvdC40YfQtdC90L3Ri9C5INC00L7RgdGC0YPQvyDQtNC70Y8g0LLQtdC90YfRg9GA0L3Ri9GFINGE0L7QvdC00L7Qsiwg0LDQutGB0LXQu9C10YDQsNGC0L7RgNC+0LIg0Lgg0LjQvdGB0YLQuNGC0YPRgtC+0LIg0YDQsNC30LLQuNGC0LjRjy4iLAogICAgImJ1dHRvbl90ZXh0IjogItCX0LDQv9GA0L7RgdC40YLRjCDQtNC+0YHRgtGD0L8iCiAgfSwKICAiUHJpY2luZ1BsYW4iOiB7CiAgICAiZnJlZV9wbGFuX25hbWUiOiAi0KHRgtCw0YDRgiIsCiAgICAicHJlbWl1bV9wbGFuX25hbWUiOiAi0J/RgNC+0YTQuCIsCiAgICAiZW50ZXJwcmlzZV9wbGFuX25hbWUiOiAi0K3QvdGC0LXRgNC/0YDQsNC50LciLAogICAgImZyZWVfcGxhbl9kZXNjcmlwdGlvbiI6ICLQkdCw0LfQvtCy0YvQuSDQtNC+0YHRgtGD0L8iLAogICAgInByZW1pdW1fcGxhbl9kZXNjcmlwdGlvbiI6ICLQn9GA0L7RhNC10YHRgdC40L7QvdCw0LvRjNC90YvQuSDQtNC+0YHRgtGD0L8iLAogICAgImVudGVycHJpc2VfcGxhbl9kZXNjcmlwdGlvbiI6ICLQmNC90YHRgtC40YLRg9GG0LjQvtC90LDQu9GM0L3Ri9C1INC40L3QstC10YHRgtC+0YDRiywg0L7RgNCz0LDQvdC40LfQsNGG0LjQuCIsCiAgICAiZmVhdHVyZV90ZWFtX21lbWJlciI6ICJ7bnVtYmVyfSDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSIsCiAgICAiZmVhdHVyZV93ZWJzaXRlIjogIntudW1iZXJ9INC/0YDQvtC10LrRgtC+0LIg0LIg0LzQtdGB0Y/RhiIsCiAgICAiZmVhdHVyZV9zdG9yYWdlIjogIntudW1iZXJ9INCT0JEg0YXRgNCw0L3QuNC70LjRidCwINC00LDQvdC90YvRhSIsCiAgICAiZmVhdHVyZV90cmFuc2ZlciI6ICJBUEkt0LTQvtGB0YLRg9C/IiwKICAgICJmZWF0dXJlX2VtYWlsX3N1cHBvcnQiOiAi0K3QutGB0L/QtdGA0YLQvdCw0Y8g0L/QvtC00LTQtdGA0LbQutCwIiwKICAgICJwbGFuX2ludGVydmFsX21vbnRoIjogItC80LXRgdGP0YYiLAogICAgInBsYW5faW50ZXJ2YWxfeWVhciI6ICLQs9C+0LQiLAogICAgIm5leHRfcmVuZXdfZGF0ZSI6ICLQlNC+0YHRgtGD0L8g0LDQutGC0LjQstC10L0g0LTQviB7ZGF0ZX0iCiAgfSwKICAiRkFRIjogewogICAgInF1ZXN0aW9uMSI6ICLQmtCw0Log0YDQsNCx0L7RgtCw0LXRgiBNTC3RgdC60L7RgNC40L3QsyDRgtC10YXQvdC+0LvQvtCz0LjRh9C10YHQutC40YUg0L/RgNC+0LXQutGC0L7Qsj8iLAogICAgImFuc3dlcjEiOiAi0J/Qu9Cw0YLRhNC+0YDQvNCwINCw0L3QsNC70LjQt9C40YDRg9C10YIg0LrQu9GO0YfQtdCy0YvQtSDQv9GA0LjQt9C90LDQutC4INC/0YDQvtC10LrRgtCwIOKAlCDQutC+0LzQsNC90LTRgywg0YLQtdGF0L3QvtC70L7Qs9C40Y4sINGA0YvQvdC+0LosINGC0Y/Qs9GDIOKAlCDQuCDRgNCw0YHRgdGH0LjRgtGL0LLQsNC10YIg0LLQtdGA0L7Rj9GC0L3QvtGB0YLRjCDRg9GB0L/QtdGF0LAg0L3QsCDQvtGB0L3QvtCy0LUgNTAwKyDQuNGB0YLQvtGA0LjRh9C10YHQutC40YUg0YHQtNC10LvQvtC6LiDQnNC+0LTQtdC70Ywg0L7QsdGD0YfQtdC90LAg0L3QsCDQtNCw0L3QvdGL0YUg0LLQtdC90YfRg9GA0L3Ri9GFINGE0L7QvdC00L7QsiDQuCDQtNCw0ZHRgiDQuNC90YLQtdGA0L/RgNC10YLQuNGA0YPQtdC80L7QtSDQvtCx0YrRj9GB0L3QtdC90LjQtSDQutCw0LbQtNC+0Lkg0L7RhtC10L3QutC4LiIsCiAgICAicXVlc3Rpb24yIjogItCU0LvRjyDQutC+0LPQviDQv9GA0LXQtNC90LDQt9C90LDRh9C10L3QsCDQv9C70LDRgtGE0L7RgNC80LA/IiwKICAgICJhbnN3ZXIyIjogItCf0LvQsNGC0YTQvtGA0LzQsCDRgNCw0LfRgNCw0LHQvtGC0LDQvdCwINC00LvRjyDQstC10L3Rh9GD0YDQvdGL0YUg0YTQvtC90LTQvtCyLCDQsNC60YHQtdC70LXRgNCw0YLQvtGA0L7QsiDQuCDQuNC90YHRgtC40YLRg9GC0L7QsiDRgNCw0LfQstC40YLQuNGPLCDQutC+0YLQvtGA0YvQtSDRgNC10LPRg9C70Y/RgNC90L4g0L7RhtC10L3QuNCy0LDRjtGCINGC0LXRhdC90L7Qu9C+0LPQuNGH0LXRgdC60LjQtSDQv9GA0L7QtdC60YLRiyDQuCDRhdC+0YLRj9GCINCw0LLRgtC+0LzQsNGC0LjQt9C40YDQvtCy0LDRgtGMINC/0LXRgNCy0LjRh9C90YvQuSDQvtGC0LHQvtGAINC30LDRj9Cy0L7Qui4iLAogICAgInF1ZXN0aW9uMyI6ICLQmtCw0LrQuNC1INC00LDQvdC90YvQtSDQvdC10L7QsdGF0L7QtNC40LzRiyDQtNC70Y8g0L7RhtC10L3QutC4INC/0YDQvtC10LrRgtCwPyIsCiAgICAiYW5zd2VyMyI6ICLQlNC70Y8g0L/QtdGA0LLQuNGH0L3QvtCz0L4g0YHQutC+0YDQuNC90LPQsCDQtNC+0YHRgtCw0YLQvtGH0L3QviDQsdCw0LfQvtCy0L7QuSDQuNC90YTQvtGA0LzQsNGG0LjQuDog0L7Qv9C40YHQsNC90LjQtSDQv9GA0L7QtNGD0LrRgtCwLCDRgNGL0L3QvtC6LCDQutC+0LzQsNC90LTQsCwg0YHRgtCw0LTQuNGPINGA0LDQt9Cy0LjRgtC40Y8g0Lgg0YTQuNC90LDQvdGB0L7QstGL0LUg0L/QvtC60LDQt9Cw0YLQtdC70LguINCn0LXQvCDQsdC+0LvRjNGI0LUg0LTQsNC90L3Ri9GFINC/0YDQtdC00L7RgdGC0LDQstC70LXQvdC+LCDRgtC10Lwg0YLQvtGH0L3QtdC1INC+0YbQtdC90LrQsC4iLAogICAgInF1ZXN0aW9uNCI6ICLQndCw0YHQutC+0LvRjNC60L4g0YLQvtGH0L3RiyDRgNC10LfRg9C70YzRgtCw0YLRiyDRgdC60L7RgNC40L3Qs9CwPyIsCiAgICAiYW5zd2VyNCI6ICLQnNC+0LTQtdC70Ywg0L7QsdGD0YfQtdC90LAg0L3QsCA1MDArINGA0LXQsNC70YzQvdGL0YUg0LLQtdC90YfRg9GA0L3Ri9GFINGB0LTQtdC70LrQsNGFINC4INC/0L7QutCw0LfRi9Cy0LDQtdGCINGC0L7Rh9C90L7RgdGC0Ywg0L3QsCDRg9GA0L7QstC90LUgNzjigJM4MiUg0L/RgNC4INC/0LXRgNCy0LjRh9C90L7QvCDQvtGC0LHQvtGA0LUuINCh0LjRgdGC0LXQvNCwINC/0YDQtdC00L7RgdGC0LDQstC70Y/QtdGCINGD0YDQvtCy0LXQvdGMINGD0LLQtdGA0LXQvdC90L7RgdGC0Lgg0LTQu9GPINC60LDQttC00L7QuSDQvtGG0LXQvdC60Lgg0Lgg0L7QsdGK0Y/RgdC90Y/QtdGCINC60LvRjtGH0LXQstGL0LUg0YTQsNC60YLQvtGA0YsuIiwKICAgICJxdWVzdGlvbjUiOiAi0J7RgdC90L7QstCw0L3QsCDQu9C4INC/0LvQsNGC0YTQvtGA0LzQsCDQvdCwINC90LDRg9GH0L3QvtC8INC40YHRgdC70LXQtNC+0LLQsNC90LjQuD8iLAogICAgImFuc3dlcjUiOiAi0JTQsC4g0J/Qu9Cw0YLRhNC+0YDQvNCwINGA0LDQt9GA0LDQsdCw0YLRi9Cy0LDQtdGC0YHRjyDQsiDRgNCw0LzQutCw0YUg0LTQuNGB0YHQtdGA0YLQsNGG0LjQvtC90L3QvtCz0L4g0LjRgdGB0LvQtdC00L7QstCw0L3QuNGPLiDQnNC10YLQvtC00L7Qu9C+0LPQuNGPINC40L3RgtC10YDQv9GA0LXRgtC40YDRg9C10LzQvtCz0L4gTUwt0YHQutC+0YDQuNC90LPQsCDQuNC80LXQtdGCINCy0LDQu9C40LTQuNGA0L7QstCw0L3QvdGL0LUg0LzQtdGC0YDQuNC60Lgg0YLQvtGH0L3QvtGB0YLQuCDQuCDRgdC+0YfQtdGC0LDQtdGCINC90LDRg9GH0L3Rg9GOINGB0YLRgNC+0LPQvtGB0YLRjCDRgSDQv9GA0LDQutGC0LjRh9C10YHQutC40Lwg0L/RgNC40LzQtdC90LXQvdC40LXQvCDQsiDQstC10L3Rh9GD0YDQvdC+0Lwg0LrQsNC/0LjRgtCw0LvQtS4iLAogICAgInF1ZXN0aW9uNiI6ICLQmtCw0Log0L/QvtC70YPRh9C40YLRjCDQtNC+0YHRgtGD0L8g0Log0L/Qu9Cw0YLRhNC+0YDQvNC1PyIsCiAgICAiYW5zd2VyNiI6ICLQn9C70LDRgtGE0L7RgNC80LAg0L3QsNGF0L7QtNC40YLRgdGPINCyINGB0YLQsNC00LjQuCDQv9C40LvQvtGC0L3QvtCz0L4g0YLQtdGB0YLQuNGA0L7QstCw0L3QuNGPINGBINC+0LPRgNCw0L3QuNGH0LXQvdC90YvQvCDRh9C40YHQu9C+0Lwg0YPRh9Cw0YHRgtC90LjQutC+0LIuINCd0LDQttC80LjRgtC1INC60L3QvtC/0LrRgyDCq9CX0LDQv9GA0L7RgdC40YLRjCDQtNC+0YHRgtGD0L/CuyDQuNC70LggwqvQl9Cw0L/RgNC+0YHQuNGC0Ywg0LTQtdC80L7CuyDigJQg0LzRiyDRgdCy0Y/QttC10LzRgdGPINGBINCy0LDQvNC4INCyINGC0LXRh9C10L3QuNC1IDHigJMyINGA0LDQsdC+0YfQuNGFINC00L3QtdC5INC00LvRjyDQvtCx0YHRg9C20LTQtdC90LjRjyDRg9GH0LDRgdGC0LjRjyDQsiDQv9C40LvQvtGC0LUuIiwKICAgICJxdWVzdGlvbjciOiAi0K/QstC70Y/QtdGC0YHRjyDQu9C4INC/0LvQsNGC0YTQvtGA0LzQsCDQt9Cw0LzQtdC90L7QuSDRjdC60YHQv9C10YDRgtC90L7QuSDQvtGG0LXQvdC60Lg/IiwKICAgICJhbnN3ZXI3IjogItCd0LXRgi4g0J/Qu9Cw0YLRhNC+0YDQvNCwIOKAlCDQuNC90YHRgtGA0YPQvNC10L3RgiDQv9C+0LTQtNC10YDQttC60Lgg0L/RgNC40L3Rj9GC0LjRjyDRgNC10YjQtdC90LjQuSwg0LAg0L3QtSDQt9Cw0LzQtdC90LAg0Y3QutGB0L/QtdGA0YLQsC4g0KHQuNGB0YLQtdC80LAg0L/QvtC80L7Qs9Cw0LXRgiDQsNC90LDQu9C40YLQuNC60YMg0LHRi9GB0YLRgNC+INGB0YLRgNGD0LrRgtGD0YDQuNGA0L7QstCw0YLRjCDQuNC90YTQvtGA0LzQsNGG0LjRjiDQuCDQstGL0LTQtdC70LjRgtGMINC/0YDQuNC+0YDQuNGC0LXRgtC90YvQtSDQv9GA0L7QtdC60YLRiywg0YTQuNC90LDQu9GM0L3QvtC1INGA0LXRiNC10L3QuNC1INCy0YHQtdCz0LTQsCDQvtGB0YLQsNGR0YLRgdGPINC30LAg0YfQtdC70L7QstC10LrQvtC8LiIKICB9LAogICJDVEEiOiB7CiAgICAidGl0bGUiOiAi0J/RgNC+0YLQtdGB0YLQuNGA0YPQudGC0LUg0L/Qu9Cw0YLRhNC+0YDQvNGDINCyINC/0LjQu9C+0YLQvdC+0Lwg0YDQtdC20LjQvNC1IiwKICAgICJkZXNjcmlwdGlvbiI6ICLQn9C+0LvRg9GH0LjRgtC1INC00LXQvNC+LdC00L7RgdGC0YPQvyDQuiBNTC3Qv9C70LDRgtGE0L7RgNC80LUgRWRnZSBBSSDQtNC70Y8g0L/QtdGA0LLQuNGH0L3QvtCz0L4g0YHQutC+0YDQuNC90LPQsCDRgtC10YXQvdC+0LvQvtCz0LjRh9C10YHQutC40YUg0L/RgNC+0LXQutGC0L7Qsi4g0J/RgNC+0LfRgNCw0YfQvdCw0Y8g0LDQvdCw0LvQuNGC0LjQutCwLCDQvtCx0YPRh9C10L3QvdCw0Y8g0L3QsCDRgNC10LDQu9GM0L3Ri9GFINCy0LXQvdGH0YPRgNC90YvRhSDRgdC00LXQu9C60LDRhS4g0J7Qs9GA0LDQvdC40YfQtdC90L3Ri9C5INC90LDQsdC+0YAg0LTQu9GPINGE0L7QvdC00L7QsiDQuCDQsNC60YHQtdC70LXRgNCw0YLQvtGA0L7Qsi4g0KfQsNGB0YLRjCDQtNC40YHRgdC10YDRgtCw0YbQuNC+0L3QvdC+0LPQviDQuNGB0YHQu9C10LTQvtCy0LDQvdC40Y8uIiwKICAgICJidXR0b25fdGV4dCI6ICLQl9Cw0L/RgNC+0YHQuNGC0Ywg0LTQtdC80L4t0LTQvtGB0YLRg9C/IgogIH0sCiAgIkZvb3RlciI6IHsKICAgICJwcm9kdWN0IjogItCf0LvQsNGC0YTQvtGA0LzQsCIsCiAgICAiZG9jcyI6ICLQnNC10YLQvtC00L7Qu9C+0LPQuNGPIiwKICAgICJibG9nIjogItCY0YHRgdC70LXQtNC+0LLQsNC90LjRjyIsCiAgICAiY29tbXVuaXR5IjogItCf0LDRgNGC0L3RkdGA0YsiLAogICAgImNvbXBhbnkiOiAi0J4g0L/RgNC+0LXQutGC0LUiLAogICAgInRlcm1zX29mX3NlcnZpY2UiOiAi0KPRgdC70L7QstC40Y8g0LjRgdC/0L7Qu9GM0LfQvtCy0LDQvdC40Y8iLAogICAgInByaXZhY3lfcG9saWN5IjogItCf0L7Qu9C40YLQuNC60LAg0LrQvtC90YTQuNC00LXQvdGG0LjQsNC70YzQvdC+0YHRgtC4IiwKICAgICJmb290ZXJfdGV4dCI6ICLCqSB7eWVhcn0g0J7QntCeINCY0Jgg0JLQldCd0KfQo9CgINCb0JDQkS4g0J/RgNC+0LXQutGCINCd0JjQntCa0KAuIgogIH0sCiAgIkFib3V0IjogewogICAgIm1ldGFfdGl0bGUiOiAi0J4g0L/RgNC+0LXQutGC0LUg4oCUIEVkZ2UgQUkiLAogICAgIm1ldGFfZGVzY3JpcHRpb24iOiAiRWRnZSBBSSDigJQgTUwt0L/Qu9Cw0YLRhNC+0YDQvNCwINC00LvRjyDQv9GA0L7Qt9GA0LDRh9C90L7Qs9C+INC/0LXRgNCy0LjRh9C90L7Qs9C+INC+0YLQsdC+0YDQsCDRgdGC0LDRgNGC0LDQv9C+0LIuINCg0LDQvdC20LjRgNC+0LLQsNC90LjQtSDQt9Cw0Y/QstC+0LosINGA0LDRgdGH0ZHRgiDRgdC60L7RgNC40L3Qs9C+0LLQvtC5INC+0YbQtdC90LrQuCDQuCDQvtCx0YrRj9GB0L3QuNC80YvQtSDRhNCw0LrRgtC+0YDRiyDQv9GA0LjQvdGP0YLQuNGPINGA0LXRiNC10L3QuNC5LiIKICB9LAogICJQcm90ZWN0RmFsbGJhY2siOiB7CiAgICAibm90X2Vub3VnaF9wZXJtaXNzaW9uIjogItCjINCy0LDRgSDQvdC10LTQvtGB0YLQsNGC0L7Rh9C90L4g0L/RgNCw0LIg0LTQu9GPINCy0YvQv9C+0LvQvdC10L3QuNGPINGN0YLQvtCz0L4g0LTQtdC50YHRgtCy0LjRjyIKICB9LAogICJTaWduSW4iOiB7CiAgICAibWV0YV90aXRsZSI6ICLQktGF0L7QtCDQsiDQv9C70LDRgtGE0L7RgNC80YMiLAogICAgIm1ldGFfZGVzY3JpcHRpb24iOiAi0JLQvtC50LTQuNGC0LUg0LIg0LDQvdCw0LvQuNGC0LjRh9C10YHQutGD0Y4g0L/Qu9Cw0YLRhNC+0YDQvNGDINGB0LrQvtGA0LjQvdCz0LAg0YLQtdGF0L3QvtC70L7Qs9C40YfQtdGB0LrQuNGFINC/0YDQvtC10LrRgtC+0LIuIgogIH0sCiAgIlNpZ25VcCI6IHsKICAgICJtZXRhX3RpdGxlIjogItCX0LDQv9GA0L7RgSDQtNC10LzQvi3QtNC+0YHRgtGD0L/QsCIsCiAgICAibWV0YV9kZXNjcmlwdGlvbiI6ICLQl9Cw0L/RgNC+0YHQuNGC0LUg0LTQtdC80L4t0LTQvtGB0YLRg9C/INC6IE1MLdC/0LvQsNGC0YTQvtGA0LzQtSDQtNC70Y8g0L/QtdGA0LLQuNGH0L3QvtCz0L4g0YHQutC+0YDQuNC90LPQsCDQv9GA0L7QtdC60YLQvtCyLiIKICB9LAogICJEYXNoYm9hcmRMYXlvdXQiOiB7CiAgICAiaG9tZSI6ICLQk9C70LDQstC90LDRjyIsCiAgICAidG9kb3MiOiAi0J/RgNC+0LXQutGC0YsiLAogICAgIm1lbWJlcnMiOiAi0JrQvtC80LDQvdC00LAiLAogICAgImJpbGxpbmciOiAi0J/QvtC00L/QuNGB0LrQsCIsCiAgICAic2V0dGluZ3MiOiAi0J3QsNGB0YLRgNC+0LnQutC4IgogIH0sCiAgIkRhc2hib2FyZCI6IHsKICAgICJtZXRhX3RpdGxlIjogItCf0LDQvdC10LvRjCDQsNC90LDQu9C40YLQuNC60Lgg4oCUIEVkZ2UgQUkiLAogICAgIm1ldGFfZGVzY3JpcHRpb24iOiAi0KPQv9GA0LDQstC70LXQvdC40LUg0YHQutC+0YDQuNC90LPQvtC8INGC0LXRhdC90L7Qu9C+0LPQuNGH0LXRgdC60LjRhSDQv9GA0L7QtdC60YLQvtCyINC40Lcg0LXQtNC40L3QvtC5INCw0L3QsNC70LjRgtC40YfQtdGB0LrQvtC5INC/0LDQvdC10LvQuC4iCiAgfSwKICAiRGFzaGJvYXJkSW5kZXgiOiB7CiAgICAidGl0bGVfYmFyIjogItCQ0L3QsNC70LjRgtC40YfQtdGB0LrQsNGPINC/0LDQvdC10LvRjCIsCiAgICAidGl0bGVfYmFyX2Rlc2NyaXB0aW9uIjogItCU0L7QsdGA0L4g0L/QvtC20LDQu9C+0LLQsNGC0Ywg0LIgTUwt0L/Qu9Cw0YLRhNC+0YDQvNGDINGB0LrQvtGA0LjQvdCz0LAg0L/RgNC+0LXQutGC0L7QsiIsCiAgICAibWVzc2FnZV9zdGF0ZV90aXRsZSI6ICLQndCw0YfQvdC40YLQtSDRgNCw0LHQvtGC0YMg0YEg0L/Qu9Cw0YLRhNC+0YDQvNC+0LkiLAogICAgIm1lc3NhZ2Vfc3RhdGVfZGVzY3JpcHRpb24iOiAi0JfQsNCz0YDRg9C30LjRgtC1INC00LDQvdC90YvQtSDQv9GA0L7QtdC60YLQvtCyINC00LvRjyDQv9C10YDQstC40YfQvdC+0Lkg0L7RhtC10L3QutC4INC40LvQuCDQuNC30YPRh9C40YLQtSDQvNC10YLQvtC00L7Qu9C+0LPQuNGOINGB0LrQvtGA0LjQvdCz0LAg0LIg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4LiIsCiAgICAibWVzc2FnZV9zdGF0ZV9idXR0b24iOiAi0JzQtdGC0L7QtNC+0LvQvtCz0LjRjyDQvdCwIEdpdEh1YiIsCiAgICAibWVzc2FnZV9zdGF0ZV9hbHRlcm5hdGl2ZSI6ICLQn9C70LDRgtGE0L7RgNC80LAg0L3QsNGF0L7QtNC40YLRgdGPINCyINGB0YLQsNC00LjQuCBNVlAg0Lgg0L/RgNC+0YXQvtC00LjRgiDQv9C40LvQvtGC0L3QvtC1INGC0LXRgdGC0LjRgNC+0LLQsNC90LjQtS4g0KTRg9C90LrRhtC40L7QvdCw0LvRjNC90L7RgdGC0Ywg0YDQsNGB0YjQuNGA0Y/QtdGC0YHRjyDQv9C+INC80LXRgNC1INC/0L7Qu9GD0YfQtdC90LjRjyDQvtCx0YDQsNGC0L3QvtC5INGB0LLRj9C30Lgg0L7RgiDQv9Cw0YDRgtC90ZHRgNC+0LIuIiwKICAgICJtYXhfbWVzc2FnZSI6ICLQn9GA0L7QtdC60YIg0YDQtdCw0LvQuNC30YPQtdGC0YHRjyDQsiDRgNCw0LzQutCw0YUg0LTQuNGB0YHQtdGA0YLQsNGG0LjQvtC90L3QvtCz0L4g0LjRgdGB0LvQtdC00L7QstCw0L3QuNGPINC4INC/0L7QtNC00LXRgNC20LjQstCw0LXRgtGB0Y8g0J7QntCeINCY0Jgg0JLQldCd0KfQo9CgINCb0JDQkS4iCiAgfSwKICAiVXNlclByb2ZpbGUiOiB7CiAgICAidGl0bGUiOiAi0J/RgNC+0YTQuNC70Ywg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIiwKICAgICJ0aXRsZV9iYXIiOiAi0J/RgNC+0YTQuNC70Ywg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIiwKICAgICJ0aXRsZV9iYXJfZGVzY3JpcHRpb24iOiAi0KPQv9GA0LDQstC70LXQvdC40LUg0L/RgNC+0YTQuNC70LXQvCDQuCDQvdCw0YHRgtGA0L7QudC60LDQvNC4INC00L7RgdGC0YPQv9CwIgogIH0sCiAgIk9yZ2FuaXphdGlvblByb2ZpbGUiOiB7CiAgICAidGl0bGUiOiAi0J3QsNGB0YLRgNC+0LnQutC4INC+0YDQs9Cw0L3QuNC30LDRhtC40LgiLAogICAgInRpdGxlX2JhciI6ICLQndCw0YHRgtGA0L7QudC60Lgg0L7RgNCz0LDQvdC40LfQsNGG0LjQuCIsCiAgICAidGl0bGVfYmFyX2Rlc2NyaXB0aW9uIjogItCj0L/RgNCw0LLQu9C10L3QuNC1INGE0L7QvdC00L7QvC/QsNC60YHQtdC70LXRgNCw0YLQvtGA0L7QvCIKICB9LAogICJCaWxsaW5nIjogewogICAgInRpdGxlX2JhciI6ICLQn9C+0LTQv9C40YHQutCwIiwKICAgICJ0aXRsZV9iYXJfZGVzY3JpcHRpb24iOiAi0KPQv9GA0LDQstC70LXQvdC40LUg0LTQvtGB0YLRg9C/0L7QvCDQuiDQv9C70LDRgtGE0L7RgNC80LUiLAogICAgImN1cnJlbnRfc2VjdGlvbl90aXRsZSI6ICLQotC10LrRg9GJ0LjQuSDQv9C70LDQvSDQtNC+0YHRgtGD0L/QsCIsCiAgICAiY3VycmVudF9zZWN0aW9uX2Rlc2NyaXB0aW9uIjogItCS0YvQsdC10YDQuNGC0LUg0YLQsNGA0LjRhCDQsiDQt9Cw0LLQuNGB0LjQvNC+0YHRgtC4INC+0YIg0L7QsdGK0ZHQvNCwINC+0YbQtdC90LjQstCw0LXQvNGL0YUg0L/RgNC+0LXQutGC0L7QsiIsCiAgICAibWFuYWdlX3N1YnNjcmlwdGlvbl9idXR0b24iOiAi0JjQt9C80LXQvdC40YLRjCDQv9C70LDQvSIKICB9LAogICJCaWxsaW5nT3B0aW9ucyI6IHsKICAgICJjdXJyZW50X3BsYW4iOiAi0KLQtdC60YPRidC40Lkg0L/Qu9Cw0L0iLAogICAgInVwZ3JhZGVfcGxhbiI6ICLQl9Cw0L/RgNC+0YHQuNGC0Ywg0LTQvtGB0YLRg9C/IgogIH0sCiAgIkNoZWNrb3V0Q29uZmlybWF0aW9uIjogewogICAgInRpdGxlX2JhciI6ICLQn9C+0LTRgtCy0LXRgNC20LTQtdC90LjQtSDQtNC+0YHRgtGD0L/QsCIsCiAgICAibWVzc2FnZV9zdGF0ZV90aXRsZSI6ICLQlNC+0YHRgtGD0L8g0LDQutGC0LjQstC40YDQvtCy0LDQvSIsCiAgICAibWVzc2FnZV9zdGF0ZV9kZXNjcmlwdGlvbiI6ICLQktCw0Ygg0LfQsNC/0YDQvtGBINC90LAg0LTQvtGB0YLRg9C/INC6INC/0LvQsNGC0YTQvtGA0LzQtSDQvtCx0YDQsNCx0L7RgtCw0L0uINCS0Ysg0L/QvtC70YPRh9C40YLQtSDQuNC90YHRgtGA0YPQutGG0LjQuCDQvdCwIGVtYWlsLiIsCiAgICAibWVzc2FnZV9zdGF0ZV9idXR0b24iOiAi0JLQtdGA0L3Rg9GC0YzRgdGPINC6INC/0L7QtNC/0LjRgdC60LUiCiAgfSwKICAiRGF0YVRhYmxlIjogewogICAgIm5vX3Jlc3VsdHMiOiAi0J/RgNC+0LXQutGC0Ysg0L3QtSDQvdCw0LnQtNC10L3Riy4iCiAgfSwKICAiVG9kb3MiOiB7CiAgICAidGl0bGVfYmFyIjogItCf0YDQvtC10LrRgtGLINC90LAg0L7RhtC10L3QutC1IiwKICAgICJ0aXRsZV9iYXJfZGVzY3JpcHRpb24iOiAi0KHQv9C40YHQvtC6INGC0LXRhdC90L7Qu9C+0LPQuNGH0LXRgdC60LjRhSDQv9GA0L7QtdC60YLQvtCyINC00LvRjyDRgdC60L7RgNC40L3Qs9CwIiwKICAgICJhZGRfdG9kb19idXR0b24iOiAi0JTQvtCx0LDQstC40YLRjCDQv9GA0L7QtdC60YIiCiAgfSwKICAiVG9kb1RhYmxlQ29sdW1ucyI6IHsKICAgICJvcGVuX21lbnUiOiAi0J7RgtC60YDRi9GC0Ywg0LzQtdC90Y4iLAogICAgImVkaXQiOiAi0KDQtdC00LDQutGC0LjRgNC+0LLQsNGC0YwiLAogICAgImRlbGV0ZSI6ICLQo9C00LDQu9C40YLRjCIsCiAgICAidGl0bGVfaGVhZGVyIjogItCd0LDQt9Cy0LDQvdC40LUg0L/RgNC+0LXQutGC0LAiLAogICAgIm1lc3NhZ2VfaGVhZGVyIjogItCe0L/QuNGB0LDQvdC40LUiLAogICAgImNyZWF0ZWRfYXRfaGVhZGVyIjogItCU0LDRgtCwINC/0L7QtNCw0YfQuCIKICB9LAogICJBZGRUb2RvIjogewogICAgInRpdGxlX2JhciI6ICLQlNC+0LHQsNCy0LjRgtGMINC/0YDQvtC10LrRgiIsCiAgICAiYWRkX3RvZG9fc2VjdGlvbl90aXRsZSI6ICLQodC+0LfQtNCw0YLRjCDQutCw0YDRgtC+0YfQutGDINC/0YDQvtC10LrRgtCwIiwKICAgICJhZGRfdG9kb19zZWN0aW9uX2Rlc2NyaXB0aW9uIjogItCS0LLQtdC00LjRgtC1INCx0LDQt9C+0LLRg9GOINC40L3RhNC+0YDQvNCw0YbQuNGOINC+INGC0LXRhdC90L7Qu9C+0LPQuNGH0LXRgdC60L7QvCDQv9GA0L7QtdC60YLQtSDQtNC70Y8g0L/QtdGA0LLQuNGH0L3QvtCz0L4g0YHQutC+0YDQuNC90LPQsCIKICB9LAogICJFZGl0VG9kbyI6IHsKICAgICJ0aXRsZV9iYXIiOiAi0KDQtdC00LDQutGC0LjRgNC+0LLQsNGC0Ywg0L/RgNC+0LXQutGCIiwKICAgICJlZGl0X3RvZG9fc2VjdGlvbl90aXRsZSI6ICLQmNC30LzQtdC90LjRgtGMINC00LDQvdC90YvQtSDQv9GA0L7QtdC60YLQsCIsCiAgICAiZWRpdF90b2RvX3NlY3Rpb25fZGVzY3JpcHRpb24iOiAi0J7QsdC90L7QstC40YLQtSDQuNC90YTQvtGA0LzQsNGG0LjRjiDQviDQv9GA0L7QtdC60YLQtSDQtNC70Y8g0L/QtdGA0LXRgdGH0ZHRgtCwINGB0LrQvtGA0LjQvdCz0L7QstC+0Lkg0L7RhtC10L3QutC4IgogIH0sCiAgIlRvZG9Gb3JtIjogewogICAgInRpdGxlX2xhYmVsIjogItCd0LDQt9Cy0LDQvdC40LUg0L/RgNC+0LXQutGC0LAiLAogICAgInRpdGxlX2Rlc2NyaXB0aW9uIjogItCS0LLQtdC00LjRgtC1INC/0L7Qu9C90L7QtSDQvdCw0LfQstCw0L3QuNC1INGC0LXRhdC90L7Qu9C+0LPQuNGH0LXRgdC60L7Qs9C+INC/0YDQvtC10LrRgtCwLiIsCiAgICAibWVzc2FnZV90aXRsZSI6ICLQntC/0LjRgdCw0L3QuNC1INC/0YDQvtC10LrRgtCwIiwKICAgICJtZXNzYWdlX2Rlc2NyaXB0aW9uIjogItCa0YDQsNGC0LrQvtC1INC+0L/QuNGB0LDQvdC40LUg0YLQtdGF0L3QvtC70L7Qs9C40LgsINGG0LXQu9C10LLQvtCz0L4g0YDRi9C90LrQsCDQuCDQutC+0LzQsNC90LTRiyDQv9GA0L7QtdC60YLQsC4iLAogICAgInN1Ym1pdF9idXR0b24iOiAi0KHQvtGF0YDQsNC90LjRgtGMINC/0YDQvtC10LrRgiIKICB9Cn0K
+{
+  "Index": {
+    "meta_title": "Edge AI — Интерпретируемый AI-скоринг технологических проектов",
+    "meta_description": "ML-платформа для первичной оценки технологических проектов. Прозрачный скоринг, ранжирование заявок и объяснимая аналитика для фондов и акселераторов. Часть диссертационного исследования."
+  },
+  "Navbar": {
+    "sign_in": "Войти",
+    "sign_up": "Демо-доступ",
+    "product": "Платформа",
+    "docs": "Методология",
+    "blog": "Исследования",
+    "community": "Партнёры",
+    "company": "О проекте"
+  },
+  "Hero": {
+    "follow_twitter": "Следите за проектом",
+    "title": "Платформа <highlight>поддержки принятия решений</highlight> на основе ИИ",
+    "description": "Автоматизируем весь цикл: сбор, структурирование, ML-скоринг, объяснимый анализ и рекомендации для венчурных фондов и акселераторов.",
+    "primary_button": "Запросить демо",
+    "secondary_button": "Методология на GitHub",
+    "label": "СПНР · Цифровая платформа",
+    "stat1_value": "500+",
+    "stat1_label": "сделок в базе",
+    "stat2_value": "< 1 мин",
+    "stat2_label": "оценка проекта",
+    "stat3_value": "7",
+    "stat3_label": "ключевых факторов",
+    "stat4_value": "Пилот",
+    "stat4_label": "запущен"
+  },
+  "Sponsors": {
+    "title": "Партнёры проекта"
+  },
+  "BentoGrid": {
+    "subtitle": "Ключевые возможности",
+    "title": "Как работает Edge AI",
+    "process_tag": "Цикл принятия решений",
+    "process_title": "Полный процесс — от заявки до решения",
+    "process_description": "Автоматизируем ключевые этапы первичного отбора: от сбора данных до объяснимой рекомендации.",
+    "step1": "Сбор данных",
+    "step2": "Структурирование",
+    "step3": "ML-скоринг",
+    "step4": "Факторный анализ",
+    "step5": "Валидация",
+    "step6": "Решение",
+    "speed_value": "< 1 мин",
+    "speed_title": "Мгновенная оценка",
+    "speed_description": "Скоринг проекта за минуты вместо недель ручного анализа.",
+    "factors_title": "Факторный анализ",
+    "factors_description": "Вклад ключевых факторов в итоговую оценку проекта.",
+    "factor_team": "Команда",
+    "factor_market": "Рынок",
+    "factor_tech": "Технология",
+    "factor_traction": "Трекшн",
+    "ranking_title": "Ранжирование заявок",
+    "ranking_description": "Входящий поток проектов, отсортированный по инвестиционной привлекательности.",
+    "accuracy_value": "78–82%",
+    "accuracy_title": "Точность отбора",
+    "accuracy_description": "Модель обучена на 500+ реальных венчурных сделках.",
+    "audience1_title": "Венчурные фонды",
+    "audience1_description": "500+ заявок в год — нет времени на ручной отбор.",
+    "audience2_title": "Институты развития",
+    "audience2_description": "Прозрачность и объяснимость для отчётности.",
+    "audience3_title": "Корпоративные инвесторы",
+    "audience3_description": "Стандартизированный скоринг для портфельного анализа.",
+    "xai_title": "Не «чёрный ящик» — объяснимость каждого решения",
+    "xai_description": "Каждая оценка сопровождается интерпретацией ключевых факторов, понятной инвестору и аналитику.",
+    "xai_cta": "Запросить пилот"
+  },
+  "Features": {
+    "section_subtitle": "Возможности платформы",
+    "section_title": "Прозрачная аналитика для первичного отбора проектов",
+    "section_description": "Интерпретируемый машинный скоринг на основе факторного анализа. Система не принимает решения автоматически — она поддерживает аналитиков объяснимыми инсайтами.",
+    "feature1_title": "Скоринг проектов",
+    "feature2_title": "Ранжирование заявок",
+    "feature3_title": "Факторный анализ",
+    "feature4_title": "Интерпретация",
+    "feature5_title": "Структурирование данных",
+    "feature6_title": "Экспертная валидация",
+    "feature1_description": "Автоматическая оценка стартапов на основе ML-модели, обученной на 500+ венчурных сделках. Результат за 1 минуту вместо недель ручного анализа.",
+    "feature2_description": "Интеллектуальное ранжирование входящего потока заявок по инвестиционной привлекательности. Фокус только на проектах с реальным потенциалом.",
+    "feature3_description": "Детальная разбивка ключевых факторов оценки: команда, рынок, технология, трекшн. Понимание, что делает проект сильным.",
+    "feature4_description": "Прозрачные и объяснимые решения — никаких чёрных ящиков. Каждый вывод системы сопровождается обоснованием, понятным инвестору.",
+    "feature5_description": "Стандартизированная структура данных по всем проектам для корректного сравнения. Единый формат — надёжная основа для портфельного анализа.",
+    "feature6_description": "Финальная валидация результатов опытными аналитиками. Сочетание скорости ИИ и экспертизы профессионалов венчурного рынка."
+  },
+  "Pricing": {
+    "section_subtitle": "Модель доступа",
+    "section_title": "Гибкие варианты использования платформы",
+    "section_description": "MVP платформы проходит пилотное тестирование. Предлагаем ограниченный доступ для венчурных фондов, акселераторов и институтов развития.",
+    "button_text": "Запросить доступ"
+  },
+  "PricingPlan": {
+    "free_plan_name": "Старт",
+    "premium_plan_name": "Профи",
+    "enterprise_plan_name": "Энтерпрайз",
+    "free_plan_description": "Базовый доступ",
+    "premium_plan_description": "Профессиональный доступ",
+    "enterprise_plan_description": "Институциональные инвесторы, организации",
+    "feature_team_member": "{number} пользователей",
+    "feature_website": "{number} проектов в месяц",
+    "feature_storage": "{number} ГБ хранилища данных",
+    "feature_transfer": "API-доступ",
+    "feature_email_support": "Экспертная поддержка",
+    "plan_interval_month": "месяц",
+    "plan_interval_year": "год",
+    "next_renew_date": "Доступ активен до {date}"
+  },
+  "FAQ": {
+    "question1": "Как работает ML-скоринг технологических проектов?",
+    "answer1": "Платформа анализирует ключевые признаки проекта — команду, технологию, рынок, тягу — и рассчитывает вероятность успеха на основе 500+ исторических сделок. Модель обучена на данных венчурных фондов и даёт интерпретируемое объяснение каждой оценки.",
+    "question2": "Для кого предназначена платформа?",
+    "answer2": "Платформа разработана для венчурных фондов, акселераторов и институтов развития, которые регулярно оценивают технологические проекты и хотят автоматизировать первичный отбор заявок.",
+    "question3": "Какие данные необходимы для оценки проекта?",
+    "answer3": "Для первичного скоринга достаточно базовой информации: описание продукта, рынок, команда, стадия развития и финансовые показатели. Чем больше данных предоставлено, тем точнее оценка.",
+    "question4": "Насколько точны результаты скоринга?",
+    "answer4": "Модель обучена на 500+ реальных венчурных сделках и показывает точность на уровне 78–82% при первичном отборе. Система предоставляет уровень уверенности для каждой оценки и объясняет ключевые факторы.",
+    "question5": "Основана ли платформа на научном исследовании?",
+    "answer5": "Да. Платформа разрабатывается в рамках диссертационного исследования. Методология интерпретируемого ML-скоринга имеет валидированные метрики точности и сочетает научную строгость с практическим применением в венчурном капитале.",
+    "question6": "Как получить доступ к платформе?",
+    "answer6": "Платформа находится в стадии пилотного тестирования с ограниченным числом участников. Нажмите кнопку «Запросить доступ» или «Запросить демо» — мы свяжемся с вами в течение 1–2 рабочих дней для обсуждения участия в пилоте.",
+    "question7": "Является ли платформа заменой экспертной оценки?",
+    "answer7": "Нет. Платформа — инструмент поддержки принятия решений, а не замена эксперта. Система помогает аналитику быстро структурировать информацию и выделить приоритетные проекты, финальное решение всегда остаётся за человеком."
+  },
+  "CTA": {
+    "title": "Протестируйте платформу в пилотном режиме",
+    "description": "Получите демо-доступ к ML-платформе Edge AI для первичного скоринга технологических проектов. Прозрачная аналитика, обученная на реальных венчурных сделках. Ограниченный набор для фондов и акселераторов. Часть диссертационного исследования.",
+    "button_text": "Запросить демо-доступ"
+  },
+  "Footer": {
+    "product": "Платформа",
+    "docs": "Методология",
+    "blog": "Исследования",
+    "community": "Партнёры",
+    "company": "О проекте",
+    "terms_of_service": "Условия использования",
+    "privacy_policy": "Политика конфиденциальности",
+    "footer_text": "© {year} ООО ИИ ВЕНЧУР ЛАБ. Проект НИОКР."
+  },
+  "About": {
+    "meta_title": "О проекте — Edge AI",
+    "meta_description": "Edge AI — ML-платформа для прозрачного первичного отбора стартапов. Ранжирование заявок, расчёт скоринговой оценки и объяснимые факторы принятия решений."
+  },
+  "ProtectFallback": {
+    "not_enough_permission": "У вас недостаточно прав для выполнения этого действия"
+  },
+  "SignIn": {
+    "meta_title": "Вход в платформу",
+    "meta_description": "Войдите в аналитическую платформу скоринга технологических проектов."
+  },
+  "SignUp": {
+    "meta_title": "Запрос демо-доступа",
+    "meta_description": "Запросите демо-доступ к ML-платформе для первичного скоринга проектов."
+  },
+  "DashboardLayout": {
+    "home": "Главная",
+    "todos": "Проекты",
+    "members": "Команда",
+    "billing": "Подписка",
+    "settings": "Настройки"
+  },
+  "Dashboard": {
+    "meta_title": "Панель аналитики — Edge AI",
+    "meta_description": "Управление скорингом технологических проектов из единой аналитической панели."
+  },
+  "DashboardIndex": {
+    "title_bar": "Аналитическая панель",
+    "title_bar_description": "Добро пожаловать в ML-платформу скоринга проектов",
+    "message_state_title": "Начните работу с платформой",
+    "message_state_description": "Загрузите данные проектов для первичной оценки или изучите методологию скоринга в документации.",
+    "message_state_button": "Методология на GitHub",
+    "message_state_alternative": "Платформа находится в стадии MVP и проходит пилотное тестирование. Функциональность расширяется по мере получения обратной связи от партнёров.",
+    "max_message": "Проект реализуется в рамках диссертационного исследования и поддерживается ООО ИИ ВЕНЧУР ЛАБ."
+  },
+  "UserProfile": {
+    "title": "Профиль пользователя",
+    "title_bar": "Профиль пользователя",
+    "title_bar_description": "Управление профилем и настройками доступа"
+  },
+  "OrganizationProfile": {
+    "title": "Настройки организации",
+    "title_bar": "Настройки организации",
+    "title_bar_description": "Управление фондом/акселератором"
+  },
+  "Billing": {
+    "title_bar": "Подписка",
+    "title_bar_description": "Управление доступом к платформе",
+    "current_section_title": "Текущий план доступа",
+    "current_section_description": "Выберите тариф в зависимости от объёма оцениваемых проектов",
+    "manage_subscription_button": "Изменить план"
+  },
+  "BillingOptions": {
+    "current_plan": "Текущий план",
+    "upgrade_plan": "Запросить доступ"
+  },
+  "CheckoutConfirmation": {
+    "title_bar": "Подтверждение доступа",
+    "message_state_title": "Доступ активирован",
+    "message_state_description": "Ваш запрос на доступ к платформе обработан. Вы получите инструкции на email.",
+    "message_state_button": "Вернуться к подписке"
+  },
+  "DataTable": {
+    "no_results": "Проекты не найдены."
+  },
+  "Todos": {
+    "title_bar": "Проекты на оценке",
+    "title_bar_description": "Список технологических проектов для скоринга",
+    "add_todo_button": "Добавить проект"
+  },
+  "TodoTableColumns": {
+    "open_menu": "Открыть меню",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "title_header": "Название проекта",
+    "message_header": "Описание",
+    "created_at_header": "Дата подачи"
+  },
+  "AddTodo": {
+    "title_bar": "Добавить проект",
+    "add_todo_section_title": "Создать карточку проекта",
+    "add_todo_section_description": "Введите базовую информацию о технологическом проекте для первичного скоринга"
+  },
+  "EditTodo": {
+    "title_bar": "Редактировать проект",
+    "edit_todo_section_title": "Изменить данные проекта",
+    "edit_todo_section_description": "Обновите информацию о проекте для пересчёта скоринговой оценки"
+  },
+  "TodoForm": {
+    "title_label": "Название проекта",
+    "title_description": "Введите полное название технологического проекта.",
+    "message_title": "Описание проекта",
+    "message_description": "Краткое описание технологии, целевого рынка и команды проекта.",
+    "submit_button": "Сохранить проект"
+  }
+}
