@@ -1,6 +1,6 @@
 {
   "Index": {
-    "meta_title": "AI Venture Lab — Interpretable AI Scoring for Tech Startups",
+    "meta_title": "Edge AI — Interpretable AI Scoring for Tech Startups",
     "meta_description": "ML-powered platform for preliminary tech startup evaluation. Transparent scoring, application ranking, and explainable analytics for venture funds and accelerators."
   },
   "Navbar": {
@@ -19,36 +19,53 @@
     "primary_button": "Request Demo Access",
     "secondary_button": "View Methodology on GitHub",
     "label": "DSSP · Research Platform",
+    "stat1_value": "500+",
     "stat1_label": "deals analyzed",
-    "stat2_label": "min evaluation",
+    "stat2_value": "< 1 min",
+    "stat2_label": "project evaluation",
+    "stat3_value": "7",
     "stat3_label": "key factors",
-    "stat4_label": "launched"
+    "stat4_value": "Pilot",
+    "stat4_label": "current stage"
   },
   "Sponsors": {
     "title": "Project Partners"
   },
   "BentoGrid": {
-    "subtitle": "Decision Support Processes",
-    "title": "How the DSSP Works",
-    "card1_tag": "Decision Making Cycle",
-    "card1_title": "Complete Process from Intake to Decision",
-    "card1_description": "Automate key stages: structuring, scoring, analysis, validation.",
+    "subtitle": "Key Capabilities",
+    "title": "How Edge AI Works",
+    "process_tag": "Decision Making Cycle",
+    "process_title": "Complete Process — from Intake to Decision",
+    "process_description": "We automate the key stages of preliminary screening: from data collection to an explainable recommendation.",
     "step1": "Data Collection",
-    "step2": "ML Scoring",
-    "step3": "Factor Analysis",
-    "step4": "Validation",
-    "step5": "Decision",
-    "card2_title": "Instant Evaluation",
-    "card2_description": "Project assessment in minutes instead of weeks of analysis",
-    "card3_title": "Venture Funds",
-    "card3_description": "500+ applications/year — no time for manual screening",
-    "card4_title": "Development Institutions",
-    "card4_description": "Transparency and explainability required for reporting",
-    "card5_title": "Corporate Investors",
-    "card5_description": "Standardized scoring for portfolio analysis",
-    "card6_title": "Not a Black Box — Full Explainability of Every Decision",
-    "card6_description": "Transparent decision factors understandable to investors and analysts.",
-    "card6_cta": "Request Pilot"
+    "step2": "Structuring",
+    "step3": "ML Scoring",
+    "step4": "Factor Analysis",
+    "step5": "Validation",
+    "step6": "Decision",
+    "speed_value": "< 1 min",
+    "speed_title": "Instant Evaluation",
+    "speed_description": "Project scoring in minutes instead of weeks of manual analysis.",
+    "factors_title": "Factor Analysis",
+    "factors_description": "Contribution of key factors to the final project score.",
+    "factor_team": "Team",
+    "factor_market": "Market",
+    "factor_tech": "Technology",
+    "factor_traction": "Traction",
+    "ranking_title": "Application Ranking",
+    "ranking_description": "Incoming deal flow sorted by investment attractiveness.",
+    "accuracy_value": "78–82%",
+    "accuracy_title": "Screening Accuracy",
+    "accuracy_description": "Model trained on 500+ real venture deals.",
+    "audience1_title": "Venture Funds",
+    "audience1_description": "500+ applications per year — no time for manual screening.",
+    "audience2_title": "Development Institutions",
+    "audience2_description": "Transparency and explainability required for reporting.",
+    "audience3_title": "Corporate Investors",
+    "audience3_description": "Standardized scoring for portfolio analysis.",
+    "xai_title": "Not a Black Box — Every Decision Explained",
+    "xai_description": "Every score comes with an interpretation of key factors, understandable to investors and analysts.",
+    "xai_cta": "Request Pilot"
   },
   "Features": {
     "section_subtitle": "Platform Capabilities",
@@ -107,7 +124,7 @@
   },
   "CTA": {
     "title": "Test the Platform in Pilot Mode",
-    "description": "Get demo access to the ML platform for preliminary tech startup scoring. Transparent analytics, trained on real venture deals. Limited slots for funds and accelerators. Part of ongoing doctoral research.",
+    "description": "Get demo access to the Edge AI ML platform for preliminary tech startup scoring. Transparent analytics, trained on real venture deals. Limited slots for funds and accelerators. Part of ongoing doctoral research.",
     "button_text": "Request Demo Access"
   },
   "Footer": {
@@ -121,8 +138,8 @@
     "footer_text": "© {year} AI Venture Lab LLC. Doctoral Research Project."
   },
   "About": {
-    "meta_title": "About — AI Venture Lab",
-    "meta_description": "ML platform for transparent preliminary startup screening. Application ranking, scoring calculation, and explainable decision factors. Doctoral dissertation research."
+    "meta_title": "About — Edge AI",
+    "meta_description": "Edge AI — ML platform for transparent preliminary startup screening. Application ranking, scoring calculation, and explainable decision factors. Doctoral dissertation research."
   },
   "ProtectFallback": {
     "not_enough_permission": "You do not have sufficient permissions to perform this action"
@@ -143,7 +160,7 @@
     "settings": "Settings"
   },
   "Dashboard": {
-    "meta_title": "Analytics Dashboard — AI Venture Lab",
+    "meta_title": "Analytics Dashboard — Edge AI",
     "meta_description": "Manage tech project scoring from unified analytics dashboard."
   },
   "DashboardIndex": {
@@ -156,10 +173,12 @@
     "max_message": "This project is implemented as doctoral dissertation research and supported by AI Venture Lab LLC."
   },
   "UserProfile": {
+    "title": "User Profile",
     "title_bar": "User Profile",
     "title_bar_description": "Manage profile and access settings"
   },
   "OrganizationProfile": {
+    "title": "Organization Settings",
     "title_bar": "Organization Settings",
     "title_bar_description": "Manage fund/accelerator"
   },
