@@ -1,11 +1,12 @@
 import type { LocalePrefix } from 'node_modules/next-intl/dist/types/src/routing/types';
+
 import { BILLING_INTERVAL, type PricingPlan } from '@/types/Subscription';
 
 const localePrefix: LocalePrefix = 'as-needed';
 
 // FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'ИИ ВЕНЧУР ЛАБ',
+  name: 'Edge AI',
   locales: [
     {
       id: 'en',
@@ -45,7 +46,7 @@ export const PricingPlanList: Record<string, PricingPlan> = {
     id: PLAN_ID.PREMIUM,
     price: 200000,
     interval: BILLING_INTERVAL.MONTH,
-    testPriceId: 'price_premium_test',
+    testPriceId: 'price_premium_test', // Use for testing
     // FIXME: Update the price ID, you can create it after running `npm run stripe:setup-price`
     devPriceId: 'price_1PNksvKOp3DEwzQlGOXO7YBK',
     prodPriceId: '',

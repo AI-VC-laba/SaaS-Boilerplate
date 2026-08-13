@@ -18,13 +18,13 @@ export const Hero = () => {
         }}
       />
       {/* Синее свечение */}
-      <div className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-[500px] w-[800px] rounded-full bg-blue-600/10 blur-3xl" />
+      <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-3xl" />
 
       <div className="relative mx-auto max-w-6xl px-6">
         {/* Лейбл */}
         <div className="mb-6 flex justify-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-1.5 text-sm font-medium text-blue-400">
-            <span className="size-2 rounded-full bg-blue-400 animate-pulse" />
+            <span className="size-2 animate-pulse rounded-full bg-blue-400" />
             {t('label')}
           </span>
         </div>
@@ -49,14 +49,16 @@ export const Hero = () => {
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href="/sign-up"
-            className={buttonVariants({ size: 'lg' }) + ' bg-blue-600 hover:bg-blue-500 text-white border-0 px-8'}
+            className={`${buttonVariants({ size: 'lg' })} border-0 bg-blue-600 px-8 text-white hover:bg-blue-500`}
           >
             {t('primary_button')}
             <ArrowRightIcon className="ml-2 size-5" />
           </a>
           <a
-            href="/sign-up"
-            className={buttonVariants({ variant: 'outline', size: 'lg' }) + ' border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white px-8'}
+            href="https://github.com/AI-VC-laba/SaaS-Boilerplate"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${buttonVariants({ variant: 'outline', size: 'lg' })} border-slate-700 px-8 text-slate-300 hover:bg-slate-800 hover:text-white`}
           >
             {t('secondary_button')}
           </a>
@@ -65,10 +67,10 @@ export const Hero = () => {
         {/* Метрики */}
         <div className="mt-16 grid grid-cols-2 gap-4 md:grid-cols-4">
           {[
-            { value: '500+', label: t('stat1_label') },
-            { value: '< 1 мин', label: t('stat2_label') },
-            { value: '7', label: t('stat3_label') },
-            { value: 'Пилот', label: t('stat4_label') },
+            { value: t('stat1_value'), label: t('stat1_label') },
+            { value: t('stat2_value'), label: t('stat2_label') },
+            { value: t('stat3_value'), label: t('stat3_label') },
+            { value: t('stat4_value'), label: t('stat4_label') },
           ].map(stat => (
             <div
               key={stat.label}
