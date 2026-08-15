@@ -20,7 +20,7 @@ export const PayPerUse = () => {
             </div>
             <p className="mt-3 text-sm leading-relaxed text-stone-400">{t('single_description')}</p>
             <a
-              href="/sign-up"
+              href="/request-access"
               className="mt-6 inline-flex h-11 w-full items-center justify-center rounded-md bg-amber-500 px-8 text-sm font-semibold text-[#0B1512] transition-colors hover:bg-amber-400"
             >
               {t('single_button')}
@@ -35,7 +35,7 @@ export const PayPerUse = () => {
             <h3 className="text-xl font-bold text-white">{t('api_title')}</h3>
             <p className="mt-3 text-sm leading-relaxed text-stone-400">{t('api_description')}</p>
             <a
-              href="/sign-up"
+              href="/request-access"
               className="mt-6 inline-flex h-11 w-full items-center justify-center rounded-md border border-emerald-500/40 px-8 text-sm font-medium text-emerald-300 transition-colors hover:bg-emerald-500/10"
             >
               {t('api_button')}

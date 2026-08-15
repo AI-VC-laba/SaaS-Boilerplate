@@ -23,7 +23,7 @@ export const Pricing = () => {
                 size: 'sm',
                 className: 'mt-5 w-full',
               })}
-              href="/sign-up"
+              href="/request-access"
             >
               {t('button_text')}
             </Link>
@@ -32,9 +32,9 @@ export const Pricing = () => {
             <Link
               className={buttonVariants({
                 size: 'sm',
-                className: 'mt-5 w-full',
+                className: 'mt-5 w-full border-0 bg-amber-500 font-semibold text-[#0B1512] hover:bg-amber-400',
               })}
-              href="/sign-up"
+              href="/request-access"
             >
               {t('button_text')}
             </Link>
@@ -45,7 +45,7 @@ export const Pricing = () => {
                 size: 'sm',
                 className: 'mt-5 w-full',
               })}
-              href="/sign-up"
+              href="/request-access"
             >
               {t('button_text')}
             </Link>

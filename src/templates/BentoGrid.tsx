@@ -183,7 +183,7 @@ export const BentoGrid = () => {
               </div>
               <div className="flex-shrink-0">
                 <a
-                  href="/sign-up"
+                  href="/request-access"
                   className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3 font-semibold text-[#0B1512] transition-colors hover:bg-amber-400"
                 >
                   {t('xai_cta')}
