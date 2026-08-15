@@ -17,15 +17,17 @@ export const Navbar = () => {
         logo={<Logo />}
         rightMenu={(
           <>
-            {/* PRO: Dark mode toggle button */}
-            <li data-fade>
+            <li>
               <LocaleSwitcher />
             </li>
             <li className="ml-1 mr-2.5" data-fade>
               <Link href="/sign-in">{t('sign_in')}</Link>
             </li>
             <li>
-              <Link className={buttonVariants()} href="/sign-up">
+              <Link
+                className={`${buttonVariants()} border-0 bg-amber-500 font-semibold text-[#0B1512] hover:bg-amber-400`}
+                href="/request-access"
+              >
                 {t('sign_up')}
               </Link>
             </li>

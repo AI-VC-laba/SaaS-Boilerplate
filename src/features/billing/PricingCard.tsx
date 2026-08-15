@@ -13,9 +13,15 @@ export const PricingCard = (props: {
   const t = useTranslations('PricingPlan');
 
   const formattedPrice = new Intl.NumberFormat('ru-RU').format(props.price);
+  const isFeatured = props.planId === 'premium';
 
   return (
-    <div className="rounded-xl border border-border px-6 py-8 text-center">
+    <div className={`rounded-2xl border px-6 py-8 text-center transition-colors ${
+      isFeatured
+        ? 'border-amber-500/50 bg-[#0D1B15] shadow-[0_0_50px_-12px_rgba(217,169,44,0.25)]'
+        : 'border-border bg-card'
+    }`}
+    >
       <div className="text-lg font-semibold">
         {t(`${props.planId}_plan_name`)}
       </div>
@@ -26,7 +32,7 @@ export const PricingCard = (props: {
         </div>
 
         <div className="ml-1 text-muted-foreground">
-                    {`/ ${props.interval === 'month' ? t('plan_interval_month') : t('plan_interval_year')}`}
+          {`/ ${props.interval === 'month' ? t('plan_interval_month') : t('plan_interval_year')}`}
         </div>
       </div>
 
@@ -36,7 +42,7 @@ export const PricingCard = (props: {
 
       {props.button}
 
-      <ul className="mt-8 space-y-3">{props.children}</ul>
+      <ul className="mt-8 space-y-3 text-left">{props.children}</ul>
     </div>
   );
 };

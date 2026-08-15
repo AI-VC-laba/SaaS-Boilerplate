@@ -15,8 +15,9 @@ export const CTA = () => {
         description={t('description')}
         buttons={(
           <a
-            className={buttonVariants({ size: 'lg' })}
-                  href="/sign-up"          >
+            className={`${buttonVariants({ size: 'lg' })} border-0 bg-amber-500 px-8 font-semibold text-[#0B1512] hover:bg-amber-400`}
+            href="/request-access"
+          >
             {t('button_text')}
             <ArrowRightIcon className="ml-1 size-5" />
           </a>

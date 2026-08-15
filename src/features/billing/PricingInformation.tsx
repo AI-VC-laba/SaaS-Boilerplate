@@ -19,31 +19,33 @@ export const PricingInformation = (props: {
           interval={plan.interval}
           button={props.buttonList[plan.id]}
         >
-          <PricingFeature>
-            {t('feature_team_member', {
-              number: plan.features.teamMember,
-            })}
-          </PricingFeature>
-
-          <PricingFeature>
-            {t('feature_website', {
-              number: plan.features.website,
-            })}
-          </PricingFeature>
-
-          <PricingFeature>
-            {t('feature_storage', {
-              number: plan.features.storage,
-            })}
-          </PricingFeature>
-
-          <PricingFeature>
-            {t('feature_transfer', {
-              number: plan.features.transfer,
-            })}
-          </PricingFeature>
-
-          <PricingFeature>{t('feature_email_support')}</PricingFeature>
+          {plan.id !== 'enterprise'
+            ? (
+                <>
+                  <PricingFeature>
+                    {t('feature_team_member', { number: plan.features.teamMember })}
+                  </PricingFeature>
+                  <PricingFeature>
+                    {t('feature_projects', { number: plan.features.projects })}
+                  </PricingFeature>
+                  <PricingFeature>
+                    {t('feature_storage', { number: plan.features.storage })}
+                  </PricingFeature>
+                  {plan.features.api && (
+                    <PricingFeature>{t('feature_api')}</PricingFeature>
+                  )}
+                  <PricingFeature>{t('feature_support')}</PricingFeature>
+                </>
+              )
+            : (
+                <>
+                  <PricingFeature>{t('feature_unlimited_projects')}</PricingFeature>
+                  <PricingFeature>{t('feature_unlimited_storage')}</PricingFeature>
+                  <PricingFeature>{t('feature_api')}</PricingFeature>
+                  <PricingFeature>{t('feature_support_247')}</PricingFeature>
+                  <PricingFeature>{t('feature_custom')}</PricingFeature>
+                </>
+              )}
         </PricingCard>
       ))}
     </div>
