@@ -7,6 +7,7 @@ import { FAQ } from '@/templates/FAQ';
 import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
 import { Navbar } from '@/templates/Navbar';
+import { PayPerUse } from '@/templates/PayPerUse';
 import { Pricing } from '@/templates/Pricing';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -31,6 +32,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <Hero />
       <BentoGrid />
       <Pricing />
+      <PayPerUse />
       <FAQ />
       <CTA />
       <Footer />

@@ -37,9 +37,9 @@ export const PricingPlanList: Record<string, PricingPlan> = {
     prodPriceId: '',
     features: {
       teamMember: 2,
-      website: 2,
+      projects: 20,
       storage: 2,
-      transfer: 2,
+      api: false,
     },
   },
   [PLAN_ID.PREMIUM]: {
@@ -52,9 +52,9 @@ export const PricingPlanList: Record<string, PricingPlan> = {
     prodPriceId: '',
     features: {
       teamMember: 5,
-      website: 5,
-      storage: 5,
-      transfer: 5,
+      projects: 50,
+      storage: 10,
+      api: true,
     },
   },
   [PLAN_ID.ENTERPRISE]: {
@@ -66,9 +66,9 @@ export const PricingPlanList: Record<string, PricingPlan> = {
     prodPriceId: '',
     features: {
       teamMember: 20,
-      website: 20,
-      storage: 20,
-      transfer: 20,
+      projects: 0,
+      storage: 0,
+      api: true,
     },
   },
 };
