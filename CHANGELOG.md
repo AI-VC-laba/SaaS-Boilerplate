@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.3.1...v1.4.0) (2026-08-15)
+
+
+### Bug Fixes
+
+* route bento/pay-per-use/pricing CTAs to /request-access ([62897d2](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/62897d2b59d77e4249cafbfd05ef9636f233f9ac))
+
+
+### Features
+
+* Edge AI rebrand + bento-only landing redesign ([#2](https://github.com/AI-VC-laba/SaaS-Boilerplate/issues/2)) ([d21c7bd](https://github.com/AI-VC-laba/SaaS-Boilerplate/commit/d21c7bd8e569b70c7ecbacd304a8ede1561fa91a))
+
 ## [1.3.1](https://github.com/AI-VC-laba/SaaS-Boilerplate/compare/v1.3.0...v1.3.1) (2026-07-12)
 
 
