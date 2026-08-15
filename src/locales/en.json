@@ -1,7 +1,7 @@
 {
   "Index": {
     "meta_title": "Edge AI — Interpretable AI Scoring for Tech Startups",
-    "meta_description": "ML-powered platform for preliminary tech startup evaluation. Transparent scoring, application ranking, and explainable analytics for venture funds and accelerators."
+    "meta_description": "ML-powered platform for preliminary tech startup evaluation. Model trained on 5000+ real venture deals with an original, scientifically validated methodology. Transparent scoring, application ranking, and explainable analytics for venture funds and accelerators."
   },
   "Navbar": {
     "sign_in": "Sign In",
@@ -15,16 +15,16 @@
   "Hero": {
     "follow_twitter": "Follow the project",
     "title": "AI-Powered <highlight>Decision Support Platform</highlight> for Tech Investments",
-    "description": "Automated deal flow processing: data collection, structuring, ML scoring, and actionable insights for venture funds, development institutions, and corporate VCs.",
+    "description": "Model trained on 5000+ real venture deals with an original, scientifically validated methodology grounded in decision-maker insights. Full cycle: data collection, structuring, ML scoring, and explainable recommendations for venture funds and accelerators.",
     "primary_button": "Request Demo Access",
     "secondary_button": "View Methodology on GitHub",
     "label": "DSSP · Research Platform",
-    "stat1_value": "500+",
+    "stat1_value": "5000+",
     "stat1_label": "deals analyzed",
     "stat2_value": "< 1 min",
     "stat2_label": "project evaluation",
-    "stat3_value": "7",
-    "stat3_label": "key factors",
+    "stat3_value": "DSS",
+    "stat3_label": "decision-maker data",
     "stat4_value": "Pilot",
     "stat4_label": "current stage"
   },
@@ -54,9 +54,12 @@
     "factor_traction": "Traction",
     "ranking_title": "Application Ranking",
     "ranking_description": "Incoming deal flow sorted by investment attractiveness.",
-    "accuracy_value": "78–82%",
-    "accuracy_title": "Screening Accuracy",
-    "accuracy_description": "Model trained on 500+ real venture deals.",
+    "verification_tag": "Research Foundation",
+    "verification_title": "Original Validated Methodology",
+    "verification_description": "Not an adaptation of off-the-shelf models — an original methodology developed and scientifically validated for the venture market.",
+    "verification_point1": "Trained on 5000+ real venture deals",
+    "verification_point2": "Methodology passed scientific validation",
+    "verification_point3": "Built on decision-maker data and insights",
     "audience1_title": "Venture Funds",
     "audience1_description": "500+ applications per year — no time for manual screening.",
     "audience2_title": "Development Institutions",
@@ -77,7 +80,7 @@
     "feature4_title": "Interpretation",
     "feature5_title": "Data Structuring",
     "feature6_title": "Expert Validation",
-    "feature1_description": "Automatic startup evaluation based on ML model trained on 500+ venture deals. Get results in 1 minute instead of weeks of manual analysis.",
+    "feature1_description": "Automatic startup evaluation based on an ML model trained on 5000+ real venture deals. Get results in 1 minute instead of weeks of manual analysis.",
     "feature2_description": "Intelligent ranking of incoming deal flow by investment attractiveness. Focus only on projects with real potential.",
     "feature3_description": "Detailed breakdown of key factors affecting evaluation: team, market, technology, traction. Understand what makes a project strong.",
     "feature4_description": "Transparent and explainable decisions — no black boxes. Every system output is accompanied by justification understandable to investors.",
@@ -94,37 +97,53 @@
     "free_plan_name": "Starter",
     "premium_plan_name": "Professional",
     "enterprise_plan_name": "Enterprise",
-    "free_plan_description": "Basic access",
-    "premium_plan_description": "Professional access",
-    "enterprise_plan_description": "Institutional investors, organizations",
+    "free_plan_description": "Pilot access to evaluate the platform",
+    "premium_plan_description": "For accelerators and venture funds",
+    "enterprise_plan_description": "For institutions and corporations — turnkey",
     "feature_team_member": "{number} users",
-    "feature_website": "{number} projects per month",
+    "feature_projects": "{number} projects per week",
     "feature_storage": "{number} GB data storage",
-    "feature_transfer": "API access",
-    "feature_email_support": "Expert support",
+    "feature_api": "API access",
+    "feature_support": "Expert support",
+    "feature_unlimited_projects": "Unlimited projects",
+    "feature_unlimited_storage": "Unlimited storage",
+    "feature_support_247": "Expert support 24/7",
+    "feature_custom": "Custom model on your data",
     "plan_interval_month": "month",
     "plan_interval_year": "year",
     "next_renew_date": "Access active until {date}"
   },
+  "PayPerUse": {
+    "single_tag": "No subscription",
+    "single_title": "One-off Project Scoring",
+    "single_price": "₽1,500",
+    "single_per": "per project",
+    "single_description": "Full scoring of a single project: interpretable report, score, factor explanation, and recommendation — in one minute. No subscription required.",
+    "single_button": "Score a Project",
+    "api_tag": "For integrations",
+    "api_title": "API Access",
+    "api_description": "Easily connect scoring to your CRM or dealflow system. REST API, documentation, key issued in 5 minutes. Packages from 100 checks.",
+    "api_button": "Get API Key"
+  },
   "FAQ": {
     "question1": "How does ML scoring of tech projects work?",
-    "answer1": "The platform analyzes key project features — team, technology, market, traction — and calculates success probability based on 500+ historical deals. The model is trained on venture fund data and provides interpretable explanation for each evaluation.",
+    "answer1": "The platform analyzes key project features — team, technology, market, traction — and calculates success probability based on 5000+ real venture deals. The model is trained on market data enriched with decision-maker insights and provides an interpretable explanation for each evaluation.",
     "question2": "Who is the platform designed for?",
     "answer2": "The platform is developed for venture funds, accelerators, and development institutions that regularly evaluate tech projects and want to automate preliminary application screening.",
     "question3": "What data is needed to evaluate a project?",
     "answer3": "For preliminary scoring, basic information is sufficient: product description, market, team, development stage, and financial metrics. The more data provided, the more accurate the evaluation.",
     "question4": "How accurate are the scoring results?",
-    "answer4": "The model is trained on 500+ real venture deals and shows 78-82% accuracy in preliminary screening. The system provides confidence level for each evaluation and explains key factors.",
+    "answer4": "The model is trained on 5000+ real venture deals. The methodology has passed scientific validation, and preliminary screening quality is further confirmed by decision-maker data and insights from the market.",
     "question5": "Is this platform based on academic research?",
-    "answer5": "Yes. The platform is being developed as part of doctoral dissertation research for obtaining a scientific degree. It features original methodology for interpretable ML scoring with validated accuracy metrics. The research combines academic rigor with practical application in venture capital.",
+    "answer5": "Yes. The platform is being developed as part of doctoral dissertation research. The interpretable ML scoring methodology has passed scientific validation and combines academic rigor with practical application in venture capital.",
     "question6": "How to get access to the platform?",
-    "answer6": "The platform is in pilot testing stage with limited number of participants. Click 'Request Access' or 'Request Demo' button — we will contact you within 1-2 business days to discuss pilot participation.",
+    "answer6": "The platform is in pilot testing stage with a limited number of participants. Click 'Request Access' or 'Request Demo' — we will contact you within 1-2 business days to discuss pilot participation.",
     "question7": "Is the platform a replacement for expert evaluation?",
-    "answer7": "No. The platform is a decision support tool, not an expert replacement. The system helps analysts quickly structure information and identify priority projects, but final decision always remains with humans."
+    "answer7": "No. The platform is a decision support tool, not an expert replacement. The system helps analysts quickly structure information and identify priority projects, but the final decision always remains with humans."
   },
   "CTA": {
     "title": "Test the Platform in Pilot Mode",
-    "description": "Get demo access to the Edge AI ML platform for preliminary tech startup scoring. Transparent analytics, trained on real venture deals. Limited slots for funds and accelerators. Part of ongoing doctoral research.",
+    "description": "Get demo access to the Edge AI ML platform trained on 5000+ real venture deals. Original validated methodology, decision-maker insights. Limited slots for funds and accelerators. Part of ongoing doctoral research.",
     "button_text": "Request Demo Access"
   },
   "Footer": {
@@ -139,7 +158,7 @@
   },
   "About": {
     "meta_title": "About — Edge AI",
-    "meta_description": "Edge AI — ML platform for transparent preliminary startup screening. Application ranking, scoring calculation, and explainable decision factors. Doctoral dissertation research."
+    "meta_description": "Edge AI — ML platform for transparent preliminary startup screening. Model trained on 5000+ real venture deals, original validated methodology, decision-maker data."
   },
   "ProtectFallback": {
     "not_enough_permission": "You do not have sufficient permissions to perform this action"

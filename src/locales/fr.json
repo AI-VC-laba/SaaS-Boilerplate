@@ -1,7 +1,7 @@
 {
   "Index": {
     "meta_title": "Edge AI — Scoring IA interprétable pour startups technologiques",
-    "meta_description": "Plateforme ML pour l'évaluation préliminaire de startups technologiques. Scoring transparent, classement des candidatures et analytique explicable pour fonds de capital-risque et accélérateurs."
+    "meta_description": "Plateforme ML pour l'évaluation préliminaire de startups technologiques. Modèle entraîné sur 5000+ transactions réelles avec une méthodologie originale validée scientifiquement. Scoring transparent et analytique explicable."
   },
   "Navbar": {
     "sign_in": "Se connecter",
@@ -15,16 +15,16 @@
   "Hero": {
     "follow_twitter": "Suivre le projet",
     "title": "Plateforme d'<highlight>aide à la décision</highlight> basée sur l'IA pour les investissements technologiques",
-    "description": "Automatisation du cycle complet : collecte, structuration, scoring ML, analyse explicable et recommandations pour fonds de capital-risque et accélérateurs.",
+    "description": "Modèle entraîné sur 5000+ transactions réelles avec une méthodologie originale validée scientifiquement, fondée sur les données des décideurs. Cycle complet : collecte, structuration, scoring ML, analyse explicable et recommandations.",
     "primary_button": "Demander une démo",
     "secondary_button": "Méthodologie sur GitHub",
     "label": "SAD · Plateforme de recherche",
-    "stat1_value": "500+",
+    "stat1_value": "5000+",
     "stat1_label": "transactions analysées",
     "stat2_value": "< 1 min",
     "stat2_label": "évaluation de projet",
-    "stat3_value": "7",
-    "stat3_label": "facteurs clés",
+    "stat3_value": "DSS",
+    "stat3_label": "données décideurs",
     "stat4_value": "Pilote",
     "stat4_label": "étape actuelle"
   },
@@ -54,9 +54,12 @@
     "factor_traction": "Traction",
     "ranking_title": "Classement des candidatures",
     "ranking_description": "Flux de projets entrants triés par attractivité d'investissement.",
-    "accuracy_value": "78–82%",
-    "accuracy_title": "Précision de présélection",
-    "accuracy_description": "Modèle entraîné sur 500+ transactions de capital-risque réelles.",
+    "verification_tag": "Base scientifique",
+    "verification_title": "Méthodologie originale validée",
+    "verification_description": "Pas une adaptation de modèles existants — une méthodologie originale développée et validée scientifiquement pour le marché du capital-risque.",
+    "verification_point1": "Entraînée sur 5000+ transactions réelles",
+    "verification_point2": "Méthodologie validée scientifiquement",
+    "verification_point3": "Données et avis des décideurs du marché",
     "audience1_title": "Fonds de capital-risque",
     "audience1_description": "500+ candidatures par an — pas de temps pour une présélection manuelle.",
     "audience2_title": "Institutions de développement",
@@ -77,7 +80,7 @@
     "feature4_title": "Interprétation",
     "feature5_title": "Structuration des données",
     "feature6_title": "Validation experte",
-    "feature1_description": "Évaluation automatique des startups basée sur un modèle ML entraîné sur 500+ transactions de capital-risque. Résultats en 1 minute au lieu de semaines d'analyse manuelle.",
+    "feature1_description": "Évaluation automatique des startups basée sur un modèle ML entraîné sur 5000+ transactions réelles. Résultats en 1 minute au lieu de semaines d'analyse manuelle.",
     "feature2_description": "Classement intelligent du flux de candidatures par attractivité d'investissement. Concentrez-vous uniquement sur les projets à réel potentiel.",
     "feature3_description": "Décomposition détaillée des facteurs clés de l'évaluation : équipe, marché, technologie, traction. Comprenez ce qui fait la force d'un projet.",
     "feature4_description": "Décisions transparentes et explicables — pas de boîtes noires. Chaque résultat du système s'accompagne d'une justification compréhensible pour les investisseurs.",
@@ -94,29 +97,45 @@
     "free_plan_name": "Starter",
     "premium_plan_name": "Professionnel",
     "enterprise_plan_name": "Enterprise",
-    "free_plan_description": "Accès de base",
-    "premium_plan_description": "Accès professionnel",
-    "enterprise_plan_description": "Investisseurs institutionnels, organisations",
+    "free_plan_description": "Accès pilote pour évaluer la plateforme",
+    "premium_plan_description": "Pour accélérateurs et fonds de capital-risque",
+    "enterprise_plan_description": "Pour institutions et entreprises — clé en main",
     "feature_team_member": "{number} utilisateurs",
-    "feature_website": "{number} projets par mois",
+    "feature_projects": "{number} projets par semaine",
     "feature_storage": "{number} Go de stockage",
-    "feature_transfer": "Accès API",
-    "feature_email_support": "Support expert",
+    "feature_api": "Accès API",
+    "feature_support": "Support expert",
+    "feature_unlimited_projects": "Projets illimités",
+    "feature_unlimited_storage": "Stockage illimité",
+    "feature_support_247": "Support expert 24/7",
+    "feature_custom": "Modèle personnalisé sur vos données",
     "plan_interval_month": "mois",
     "plan_interval_year": "an",
     "next_renew_date": "Accès actif jusqu'au {date}"
   },
+  "PayPerUse": {
+    "single_tag": "Sans abonnement",
+    "single_title": "Scoring ponctuel de projet",
+    "single_price": "1 500 ₽",
+    "single_per": "par projet",
+    "single_description": "Scoring complet d'un projet : rapport interprétable, note, explication des facteurs et recommandation — en une minute. Sans abonnement ni engagement.",
+    "single_button": "Scorer un projet",
+    "api_tag": "Pour les intégrations",
+    "api_title": "Accès API",
+    "api_description": "Connectez facilement le scoring à votre CRM ou système de dealflow. REST API, documentation, clé délivrée en 5 minutes. Forfaits à partir de 100 vérifications.",
+    "api_button": "Obtenir une clé API"
+  },
   "FAQ": {
     "question1": "Comment fonctionne le scoring ML des projets technologiques ?",
-    "answer1": "La plateforme analyse les caractéristiques clés du projet — équipe, technologie, marché, traction — et calcule la probabilité de succès sur la base de 500+ transactions historiques. Le modèle est entraîné sur des données de fonds de capital-risque et fournit une explication interprétable pour chaque évaluation.",
+    "answer1": "La plateforme analyse les caractéristiques clés du projet — équipe, technologie, marché, traction — et calcule la probabilité de succès sur la base de 5000+ transactions réelles. Le modèle est entraîné sur des données du marché enrichies par les avis des décideurs et fournit une explication interprétable pour chaque évaluation.",
     "question2": "À qui s'adresse la plateforme ?",
     "answer2": "La plateforme est développée pour les fonds de capital-risque, les accélérateurs et les institutions de développement qui évaluent régulièrement des projets technologiques et souhaitent automatiser la présélection des candidatures.",
     "question3": "Quelles données sont nécessaires pour évaluer un projet ?",
     "answer3": "Pour le scoring préliminaire, les informations de base suffisent : description du produit, marché, équipe, stade de développement et indicateurs financiers. Plus il y a de données, plus l'évaluation est précise.",
     "question4": "Quelle est la précision des résultats de scoring ?",
-    "answer4": "Le modèle est entraîné sur 500+ transactions de capital-risque réelles et affiche une précision de 78 à 82 % en présélection. Le système fournit un niveau de confiance pour chaque évaluation et explique les facteurs clés.",
+    "answer4": "Le modèle est entraîné sur 5000+ transactions réelles. La méthodologie a passé une validation scientifique, et la qualité de la présélection est confirmée par les données et avis des décideurs du marché.",
     "question5": "La plateforme est-elle basée sur la recherche académique ?",
-    "answer5": "Oui. La plateforme est développée dans le cadre d'une recherche de doctorat. Elle propose une méthodologie originale de scoring ML interprétable avec des métriques de précision validées, alliant rigueur académique et application pratique en capital-risque.",
+    "answer5": "Oui. La plateforme est développée dans le cadre d'une recherche de doctorat. La méthodologie de scoring ML interprétable a passé une validation scientifique et allie rigueur académique et application pratique en capital-risque.",
     "question6": "Comment obtenir l'accès à la plateforme ?",
     "answer6": "La plateforme est en phase de test pilote avec un nombre limité de participants. Cliquez sur « Demander l'accès » ou « Demander une démo » — nous vous contacterons sous 1 à 2 jours ouvrés pour discuter de votre participation au pilote.",
     "question7": "La plateforme remplace-t-elle l'évaluation experte ?",
@@ -124,7 +143,7 @@
   },
   "CTA": {
     "title": "Testez la plateforme en mode pilote",
-    "description": "Obtenez un accès démo à la plateforme ML Edge AI pour le scoring préliminaire de startups technologiques. Analytique transparente, entraînée sur des transactions de capital-risque réelles. Places limitées pour les fonds et accélérateurs. Partie d'une recherche doctorale en cours.",
+    "description": "Obtenez un accès démo à la plateforme ML Edge AI entraînée sur 5000+ transactions réelles. Méthodologie originale validée, données des décideurs. Places limitées pour les fonds et accélérateurs. Partie d'une recherche doctorale en cours.",
     "button_text": "Demander un accès démo"
   },
   "Footer": {
@@ -139,7 +158,7 @@
   },
   "About": {
     "meta_title": "À propos — Edge AI",
-    "meta_description": "Edge AI — plateforme ML pour la présélection transparente de startups. Classement des candidatures, calcul du score et facteurs de décision explicables."
+    "meta_description": "Edge AI — plateforme ML pour la présélection transparente de startups. Modèle entraîné sur 5000+ transactions réelles, méthodologie originale validée, données des décideurs."
   },
   "ProtectFallback": {
     "not_enough_permission": "Vous n'avez pas les permissions suffisantes pour effectuer cette action"
