@@ -48,7 +48,7 @@ export const Hero = () => {
         {/* Кнопки */}
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="/sign-up"
+            href="/request-access"
             className={`${buttonVariants({ size: 'lg' })} border-0 bg-amber-500 px-8 font-semibold text-[#0B1512] hover:bg-amber-400`}
           >
             {t('primary_button')}
